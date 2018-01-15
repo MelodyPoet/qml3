@@ -14,9 +14,9 @@ namespace  modules.passport.main
         private PassportModel model = PassportModel.instance;
        
 
-        public PassportLogic():base(ModuleEnum.PASSPORT,"passportMainView","passport")
+        public PassportLogic():base(ModuleEnum.PASSPORT,"passportMainView","passport","comm")
         {
-         //   new RegCreateViewEvente<PassportView>(uiID, "Passport", View.normalLayer.transform, this).excute();
+       
         
         }
 
@@ -24,6 +24,7 @@ namespace  modules.passport.main
         {
             base.onInitView(view);
             createLogicView<LoginLogic,LoginView>("loginView");
+            getLogicInModule<LoginLogic>().show();
             view.RequestOnTestClk=()=>{
                     getLogicInModule<LoginLogic>().show();
             }

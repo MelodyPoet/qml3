@@ -69,10 +69,12 @@
     <None Include="Assets\starbucks\ui\module_template\src\model\TemplateModel.txt" />
     <None Include="Assets\thirdPart\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
     <None Include="Assets\starbucks\ui\module_template\src\TemplateModule.txt" />
+    <None Include="Assets\starbucks\ui\module_template\src\other\TemplateView.txt" />
     <None Include="Assets\starbucks\ui\module_template\src\main\TemplateView.txt" />
     <None Include="Assets\starbucks\ui\module_template\src\main\TemplateLogic.txt" />
     <None Include="Assets\starbucks\ui\module_template\src\TemplateEvent.txt" />
     <None Include="Assets\starbucks\ui\module_template\src\model\TemplateService.txt" />
+    <None Include="Assets\starbucks\ui\module_template\src\other\TemplateLogic.txt" />
     <None Include="Assets\thirdPart\codeandweb.com\Readme.txt" />
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>

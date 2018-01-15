@@ -25,6 +25,15 @@ namespace starbucks.uguihelp
             rectTransform.anchoredPosition = pos;
             return true;
         }
+
+        public static void resetMatix(RectTransform rectTf)
+        {
+            rectTf.anchorMin = Vector2.zero;
+            rectTf.anchorMax = Vector2.one;
+            rectTf.offsetMax = Vector2.zero;// = new Rect(0, 0, Screen.width, Screen.height);// Vector2.zero ;
+            rectTf.offsetMin = Vector2.zero;
+            rectTf.localScale = Vector3.one;
+        }
     }
 
 }

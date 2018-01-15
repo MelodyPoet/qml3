@@ -1,0 +1,25 @@
+﻿ 
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+ 
+using System;
+using UnityEngine.UI;
+ 
+using starbucks.ui.basic;
+namespace  modules.{-1}.{1}
+{
+    public class {2}View: BaseView
+    {
+        //view call logic
+       // public Action<EventData> RequestXXX;
+         
+        public override void Init()
+        {
+  
+        }
+ 
+        
+    }
+
+}

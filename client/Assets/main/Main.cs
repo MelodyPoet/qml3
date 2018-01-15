@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using modules.scene.main;
 using starbucks.basic;
 using starbucks.socket;
 using starbucks.uguihelp;
@@ -23,7 +24,9 @@ public class Main : MonoBehaviour {
 
 		ModulesManager.init();
 		Debug.Log("init main");
-		EventDispatcher.globalDispatcher.DispatchEvent(ModuleEvent.SHOW_MAIN_VIEW, ModuleEnum.PASSPORT);
+		//EventDispatcher.globalDispatcher.DispatchEvent(ModuleEvent.SHOW_MAIN_VIEW, ModuleEnum.PASSPORT);
+		new ShowViewCmd(ModuleEnum.PASSPORT).excute();
+		gameObject.AddComponent<GameScene>();
 		yield break;
 	}
 	

@@ -52,6 +52,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\code\modules\cityMainPage\CityMainPageEvent.cs" />
+    <Compile Include="Assets\code\modules\cityMainPage\CityMainPageModule.cs" />
+    <Compile Include="Assets\code\modules\cityMainPage\main\CityMainPageLogic.cs" />
+    <Compile Include="Assets\code\modules\cityMainPage\main\CityMainPageView.cs" />
+    <Compile Include="Assets\code\modules\cityMainPage\model\CityMainPageModel.cs" />
+    <Compile Include="Assets\code\modules\cityMainPage\model\CityMainPageService.cs" />
     <Compile Include="Assets\code\modules\passport\login\LoginLogic.cs" />
     <Compile Include="Assets\code\modules\passport\login\LoginView.cs" />
     <Compile Include="Assets\code\modules\passport\main\PassportLogic.cs" />
@@ -60,6 +66,11 @@
     <Compile Include="Assets\code\modules\passport\model\PassportService.cs" />
     <Compile Include="Assets\code\modules\passport\PassportEvent.cs" />
     <Compile Include="Assets\code\modules\passport\PassportModule.cs" />
+    <Compile Include="Assets\code\modules\scene\main\GameScene.cs" />
+    <Compile Include="Assets\code\modules\scene\model\SceneModel.cs" />
+    <Compile Include="Assets\code\modules\scene\model\SceneService.cs" />
+    <Compile Include="Assets\code\modules\scene\roles\MyHero.cs" />
+    <Compile Include="Assets\code\modules\scene\SceneEvent.cs" />
     <Compile Include="Assets\code\ModulesManager.cs" />
     <Compile Include="Assets\code\shared\PaneNavigator.cs" />
     <Compile Include="Assets\demo\BgLayerMoveScale.cs" />
@@ -156,10 +167,12 @@
     <None Include="Assets\starbucks\ui\module_template\src\model\TemplateModel.txt" />
     <None Include="Assets\thirdPart\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
     <None Include="Assets\starbucks\ui\module_template\src\TemplateModule.txt" />
+    <None Include="Assets\starbucks\ui\module_template\src\other\TemplateView.txt" />
     <None Include="Assets\starbucks\ui\module_template\src\main\TemplateView.txt" />
     <None Include="Assets\starbucks\ui\module_template\src\main\TemplateLogic.txt" />
     <None Include="Assets\starbucks\ui\module_template\src\TemplateEvent.txt" />
     <None Include="Assets\starbucks\ui\module_template\src\model\TemplateService.txt" />
+    <None Include="Assets\starbucks\ui\module_template\src\other\TemplateLogic.txt" />
     <None Include="Assets\thirdPart\codeandweb.com\Readme.txt" />
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

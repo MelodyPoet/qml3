@@ -57,7 +57,7 @@ public class MakeTempplateModule
         if (EditorUtility.DisplayDialog("error", "确定要在" + AssetDatabase.GetAssetPath(selItem) + "/下 创建吗？", "确定", "取消") == false) return;
         Debug.Log(AssetDatabase.GetAssetPath(selItem));
  
-        FileUtil.ReplaceDirectory(srcPath + "/main", targetPath );
+        FileUtil.ReplaceDirectory(srcPath + "/other", targetPath );
 
         string nsName = Directory.GetParent(targetPath).Name;
       Debug.Log(nsName);

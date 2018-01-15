@@ -2,6 +2,7 @@
 using System.Collections;
 using starbucks.basic;
 using starbucks.uguihelp;
+using starbucks.utils;
 using UnityEngine;
 
 namespace starbucks.ui.basic
@@ -29,6 +30,8 @@ namespace starbucks.ui.basic
             this.prefabName = prefabName;
                 dispatcher.AddEventListener(ModuleEvent.SHOW_MAIN_VIEW,
                                 onShowEvent);
+            dispatcher.AddEventListener(ModuleEvent.HIDE_MAIN_VIEW,
+                onHideEvent);
         }
     
         private void onShowEvent(EventData eventData)
@@ -51,6 +54,22 @@ namespace starbucks.ui.basic
 
             }
         }
+
+        private void onHideEvent(EventData eventData)
+        {
+            Debug.Log("onShowEvent");
+            if (eventData.intVal == moduleID)
+            {
+                hide();
+            }
+        }
+
+        public override void hide()
+        {
+            base.hide();
+            unloadRes();
+        }
+
         private    IEnumerator loading(Action onLoad)
         {
     
@@ -69,12 +88,7 @@ namespace starbucks.ui.basic
 
 
             ui.transform.SetParent(UguiRoot.rootCanvas.transform);
-            (ui.transform as RectTransform).anchorMin = Vector2.zero;
-            (ui.transform as RectTransform).anchorMax = Vector2.one;
-            (ui.transform as RectTransform).offsetMax = Vector2.zero;// = new Rect(0, 0, Screen.width, Screen.height);// Vector2.zero ;
-            (ui.transform as RectTransform).offsetMin = Vector2.zero;
-
-            ui.transform.localScale = Vector3.one;
+            UguiRoot.resetMatix(ui.transform as RectTransform);
             view = ui.AddComponent<TView>();
             onInitView(view);
 
@@ -87,6 +101,7 @@ namespace starbucks.ui.basic
             uiAsset.SetActive( false);
             GameObject ui = GameObject.Instantiate<GameObject>( uiAsset);
             ui.transform.SetParent(view.transform);
+            UguiRoot.resetMatix(ui.transform as RectTransform);
             TView childView=  ui.AddComponent<TView>();
             childView.isDefaultHidden = isDefaultHidden;
             getLogicInModule<TLogic>().onInitView(childView);
