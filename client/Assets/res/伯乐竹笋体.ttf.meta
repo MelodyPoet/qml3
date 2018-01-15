@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fcd08457586374755a09cb06873ed73b
+timeCreated: 1511052040
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BoLeZhuSunti
+  fontNames:
+  - BoLeZhuSunti
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

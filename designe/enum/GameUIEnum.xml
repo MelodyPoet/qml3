@@ -1,0 +1,5 @@
+﻿<enum>
+ <!--账号-->
+<PASSPORT_LOGIN value="1" />
+ <PASSPORT_ROLES value="2" />
+</enum>

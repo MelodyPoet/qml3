@@ -1,0 +1,18 @@
+﻿<enum>
+ 
+	<!--武器-->
+ <MAIN_WEAPON value="1" />
+	<!--衣服-->
+<BODY value="2" />
+	<!--头盔-->
+<HEAD value="3" />
+ 
+    <!--鞋子-->
+<FEET value="4" />
+ 
+	<!--戒指-->
+<RING value="5" />
+    <!--项链-->
+<NECK value="6" />
+ 
+</enum>  

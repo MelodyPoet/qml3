@@ -1,0 +1,13 @@
+﻿<enum>
+    <!--无逻辑模型-->
+    <MODEL value="0" />
+<!--怪物-->
+<MONSTER value="1" />
+<!--npc-->
+<NPC value="2" />
+ 
+<!--玩家-->
+<USER value="5" />
+ 
+
+</enum>

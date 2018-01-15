@@ -1,0 +1,1349 @@
+fileFormatVersion: 2
+guid: 8c579671548084c8d9c67ceae999d139
+timeCreated: 1511117939
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: frame0001
+    21300002: frame0002
+    21300004: frame0003
+    21300006: frame0004
+    21300008: frame0005
+    21300010: frame0006
+    21300012: frame0007
+    21300014: frame0008
+    21300016: frame0009
+    21300018: frame0010
+    21300020: frame0011
+    21300022: frame0012
+    21300024: frame0013
+    21300026: frame0014
+    21300028: frame0015
+    21300030: frame0016
+    21300032: frame0017
+    21300034: frame0018
+    21300036: frame0019
+    21300038: frame0020
+    21300040: frame0021
+    21300042: frame0022
+    21300044: frame0023
+    21300046: frame0024
+    21300048: frame0025
+    21300050: frame0026
+    21300052: frame0027
+    21300054: frame0028
+    21300056: frame0029
+    21300058: frame0030
+    21300060: frame0031
+    21300062: frame0032
+    21300064: frame0033
+    21300066: frame0034
+    21300068: frame0035
+    21300070: frame0036
+    21300072: frame0037
+    21300074: frame0038
+    21300076: frame0039
+    21300078: frame0040
+    21300080: frame0041
+    21300082: frame0042
+    21300084: frame0043
+    21300086: frame0044
+    21300088: frame0045
+    21300090: frame0046
+    21300092: frame0047
+    21300094: frame0048
+    21300096: frame0049
+    21300098: frame0050
+    21300100: frame0051
+    21300102: frame0052
+    21300104: frame0053
+    21300106: frame0054
+    21300108: frame0055
+    21300110: frame0056
+    21300112: frame0057
+    21300114: frame0058
+    21300116: frame0059
+    21300118: frame0060
+    21300120: frame0061
+    21300122: frame0062
+    21300124: frame0063
+    21300126: frame0064
+    21300128: frame0065
+    21300130: frame0066
+    21300132: frame0067
+    21300134: frame0068
+    21300136: frame0069
+    21300138: frame0070
+    21300140: frame0071
+    21300142: frame0072
+    21300144: frame0073
+    21300146: frame0074
+    21300148: frame0075
+    21300150: frame0076
+    21300152: frame0077
+    21300154: frame0078
+    21300156: frame0079
+    21300158: frame0080
+    21300160: frame0081
+    21300162: frame0082
+    21300164: frame0083
+    21300166: frame0084
+    21300168: frame0085
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frame0001
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0002
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0003
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0004
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0005
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 499
+        width: 289
+        height: 287
+      alignment: 9
+      pivot: {x: 0.26297578, y: 0.554007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0006
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 499
+        width: 289
+        height: 287
+      alignment: 9
+      pivot: {x: 0.26297578, y: 0.554007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0007
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 499
+        width: 289
+        height: 287
+      alignment: 9
+      pivot: {x: 0.26297578, y: 0.554007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 320
+        width: 288
+        height: 293
+      alignment: 9
+      pivot: {x: 0.2777778, y: 0.54266214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 320
+        width: 288
+        height: 293
+      alignment: 9
+      pivot: {x: 0.2777778, y: 0.54266214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1737
+        width: 623
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5008026, y: 0.5258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1737
+        width: 623
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5008026, y: 0.5258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1425
+        width: 600
+        height: 310
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1425
+        width: 600
+        height: 310
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1737
+        width: 623
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5008026, y: 0.5258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1737
+        width: 623
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5008026, y: 0.5258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0016
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 499
+        width: 289
+        height: 287
+      alignment: 9
+      pivot: {x: 0.26297578, y: 0.554007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0017
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 499
+        width: 289
+        height: 287
+      alignment: 9
+      pivot: {x: 0.26297578, y: 0.554007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0018
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 499
+        width: 289
+        height: 287
+      alignment: 9
+      pivot: {x: 0.26297578, y: 0.554007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0019
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0020
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0021
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0022
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0023
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0024
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0025
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0026
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0027
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0028
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0029
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0030
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0031
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0032
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0033
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0034
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0035
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 615
+        width: 304
+        height: 302
+      alignment: 9
+      pivot: {x: 0.22697368, y: 0.53642386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0036
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 615
+        width: 304
+        height: 302
+      alignment: 9
+      pivot: {x: 0.22697368, y: 0.53642386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0037
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0038
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0039
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0040
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0041
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0042
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0043
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0044
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0045
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0046
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0047
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0048
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0049
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0050
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0051
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0052
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0053
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0054
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0055
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0056
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0057
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0058
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0059
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0060
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0061
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0062
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0063
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0064
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0065
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0066
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0067
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1014
+        width: 306
+        height: 305
+      alignment: 9
+      pivot: {x: 0.23529412, y: 0.5344262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0068
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0069
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 707
+        width: 302
+        height: 305
+      alignment: 9
+      pivot: {x: 0.38410595, y: 0.53114754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0070
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 788
+        width: 306
+        height: 278
+      alignment: 9
+      pivot: {x: 0.32026145, y: 0.5071942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0071
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 788
+        width: 306
+        height: 278
+      alignment: 9
+      pivot: {x: 0.32026145, y: 0.5071942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0072
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 14
+        width: 279
+        height: 304
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.41776314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0073
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 14
+        width: 279
+        height: 304
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.41776314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0074
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1832
+        width: 357
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4117647, y: 0.81395346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0075
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1832
+        width: 357
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4117647, y: 0.81395346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0076
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1574
+        width: 353
+        height: 256
+      alignment: 9
+      pivot: {x: 0.40509915, y: 0.68359375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0077
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1574
+        width: 353
+        height: 256
+      alignment: 9
+      pivot: {x: 0.40509915, y: 0.68359375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0078
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1321
+        width: 352
+        height: 251
+      alignment: 9
+      pivot: {x: 0.4090909, y: 0.7051793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0079
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1321
+        width: 352
+        height: 251
+      alignment: 9
+      pivot: {x: 0.4090909, y: 0.7051793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0080
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1321
+        width: 352
+        height: 251
+      alignment: 9
+      pivot: {x: 0.4090909, y: 0.7051793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0081
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1321
+        width: 352
+        height: 251
+      alignment: 9
+      pivot: {x: 0.4090909, y: 0.7051793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0082
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1321
+        width: 352
+        height: 251
+      alignment: 9
+      pivot: {x: 0.4090909, y: 0.7051793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0083
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1172
+        width: 352
+        height: 251
+      alignment: 9
+      pivot: {x: 0.4090909, y: 0.7051793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0084
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1068
+        width: 352
+        height: 251
+      alignment: 9
+      pivot: {x: 0.4090909, y: 0.7051793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: frame0085
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 919
+        width: 352
+        height: 251
+      alignment: 9
+      pivot: {x: 0.4090909, y: 0.7051793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

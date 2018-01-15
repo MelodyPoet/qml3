@@ -1,0 +1,9 @@
+﻿using UnityEngine;
+using System.Collections;
+namespace modules.{-1}
+{
+    public class {0}Event
+    {
+       // public const string EVENT_DEMO = "EVENT_DEMO";
+    }
+}

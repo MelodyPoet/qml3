@@ -1,0 +1,1508 @@
+fileFormatVersion: 2
+guid: a859191c22c884180b54eebe070ad488
+timeCreated: 1511041727
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hero0001
+    21300002: hero0002
+    21300004: hero0003
+    21300006: hero0004
+    21300008: hero0005
+    21300010: hero0006
+    21300012: hero0007
+    21300014: hero0008
+    21300016: hero0009
+    21300018: hero0010
+    21300020: hero0011
+    21300022: hero0012
+    21300024: hero0013
+    21300026: hero0014
+    21300028: hero0015
+    21300030: hero0016
+    21300032: hero0017
+    21300034: hero0018
+    21300036: hero0019
+    21300038: hero0020
+    21300040: hero0021
+    21300042: hero0022
+    21300044: hero0023
+    21300046: hero0024
+    21300048: hero0025
+    21300050: hero0026
+    21300052: hero0027
+    21300054: hero0028
+    21300056: hero0029
+    21300058: hero0030
+    21300060: hero0031
+    21300062: hero0032
+    21300064: hero0033
+    21300066: hero0034
+    21300068: hero0035
+    21300070: hero0036
+    21300072: hero0037
+    21300074: hero0038
+    21300076: hero0039
+    21300078: hero0040
+    21300080: hero0041
+    21300082: hero0042
+    21300084: hero0043
+    21300086: hero0044
+    21300088: hero0045
+    21300090: hero0046
+    21300092: hero0047
+    21300094: hero0048
+    21300096: hero0049
+    21300098: hero0050
+    21300100: hero0051
+    21300102: hero0052
+    21300104: hero0053
+    21300106: hero0054
+    21300108: hero0055
+    21300110: hero0056
+    21300112: hero0057
+    21300114: hero0058
+    21300116: hero0059
+    21300118: hero0060
+    21300120: hero0061
+    21300122: hero0062
+    21300124: hero0063
+    21300126: hero0064
+    21300128: hero0065
+    21300130: hero0066
+    21300132: hero0067
+    21300134: hero0068
+    21300136: hero0069
+    21300138: hero0070
+    21300140: hero0071
+    21300142: hero0072
+    21300144: hero0073
+    21300146: hero0074
+    21300148: hero0075
+    21300150: hero0076
+    21300152: hero0077
+    21300154: hero0078
+    21300156: hero0079
+    21300158: hero0080
+    21300160: hero0081
+    21300162: hero0082
+    21300164: hero0083
+    21300166: hero0084
+    21300168: hero0085
+    21300170: hero0086
+    21300172: hero0087
+    21300174: hero0088
+    21300176: hero0089
+    21300178: hero0090
+    21300180: hero0091
+    21300182: hero0092
+    21300184: hero0093
+    21300186: hero0094
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapU: -1
+    wrapV: -1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hero0001
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 916
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0002
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 916
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0003
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 916
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0004
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 916
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0005
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1010
+        width: 218
+        height: 264
+      alignment: 9
+      pivot: {x: 0.8165138, y: 0.46401516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0006
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1164
+        width: 224
+        height: 264
+      alignment: 9
+      pivot: {x: 0.8214286, y: 0.46401516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0007
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1164
+        width: 224
+        height: 264
+      alignment: 9
+      pivot: {x: 0.8214286, y: 0.46401516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1808
+        width: 312
+        height: 239
+      alignment: 9
+      pivot: {x: 0.34615386, y: 0.5041841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0009
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1817
+        width: 309
+        height: 230
+      alignment: 9
+      pivot: {x: 0.66019416, y: 0.523913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0010
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1817
+        width: 309
+        height: 230
+      alignment: 9
+      pivot: {x: 0.66019416, y: 0.523913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 968
+        width: 209
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49760765, y: 0.523913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 968
+        width: 209
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49760765, y: 0.523913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 968
+        width: 209
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49760765, y: 0.523913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 968
+        width: 209
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49760765, y: 0.523913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 968
+        width: 209
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49760765, y: 0.523913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 968
+        width: 209
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49760765, y: 0.523913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 968
+        width: 209
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49760765, y: 0.523913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0018
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0019
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0020
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0021
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0022
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0023
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0024
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0025
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0026
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0027
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0028
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0029
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0030
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0031
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0032
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0033
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0034
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0035
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 897
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0036
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1439
+        width: 175
+        height: 258
+      alignment: 9
+      pivot: {x: 0.88, y: 0.4748062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0037
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1439
+        width: 175
+        height: 258
+      alignment: 9
+      pivot: {x: 0.88, y: 0.4748062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0038
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1183
+        width: 170
+        height: 254
+      alignment: 9
+      pivot: {x: 0.86470586, y: 0.48228347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0039
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1183
+        width: 170
+        height: 254
+      alignment: 9
+      pivot: {x: 0.86470586, y: 0.48228347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0040
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1183
+        width: 170
+        height: 254
+      alignment: 9
+      pivot: {x: 0.86470586, y: 0.48228347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0041
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1183
+        width: 170
+        height: 254
+      alignment: 9
+      pivot: {x: 0.86470586, y: 0.48228347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0042
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0043
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0044
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0045
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0046
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0047
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0048
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0049
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0050
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0051
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0052
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0053
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0054
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0055
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0056
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0057
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0058
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0059
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0060
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0061
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0062
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0063
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0064
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0065
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0066
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0067
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0068
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 743
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0069
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 916
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0070
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 916
+        width: 146
+        height: 265
+      alignment: 9
+      pivot: {x: 0.7191781, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0071
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1200
+        width: 234
+        height: 231
+      alignment: 9
+      pivot: {x: 0.8247863, y: 0.38311687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0072
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1200
+        width: 234
+        height: 231
+      alignment: 9
+      pivot: {x: 0.8247863, y: 0.38311687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0073
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1276
+        width: 247
+        height: 175
+      alignment: 9
+      pivot: {x: 0.7368421, y: 0.55142856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0074
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1276
+        width: 247
+        height: 175
+      alignment: 9
+      pivot: {x: 0.7368421, y: 0.55142856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0075
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1433
+        width: 253
+        height: 137
+      alignment: 9
+      pivot: {x: 0.7549407, y: 0.9817518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0076
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1433
+        width: 253
+        height: 137
+      alignment: 9
+      pivot: {x: 0.7549407, y: 0.9817518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0077
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1570
+        width: 272
+        height: 127
+      alignment: 9
+      pivot: {x: 0.6911765, y: 0.93307084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0078
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1570
+        width: 272
+        height: 127
+      alignment: 9
+      pivot: {x: 0.6911765, y: 0.93307084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0079
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1453
+        width: 272
+        height: 127
+      alignment: 9
+      pivot: {x: 0.6911765, y: 0.87007874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0080
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1453
+        width: 272
+        height: 127
+      alignment: 9
+      pivot: {x: 0.6911765, y: 0.87007874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0081
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1430
+        width: 262
+        height: 138
+      alignment: 9
+      pivot: {x: 0.6984733, y: 0.8804348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0082
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1430
+        width: 262
+        height: 138
+      alignment: 9
+      pivot: {x: 0.6984733, y: 0.8804348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0083
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1700
+        width: 283
+        height: 115
+      alignment: 9
+      pivot: {x: 0.7208481, y: 1.2391304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0084
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1700
+        width: 283
+        height: 115
+      alignment: 9
+      pivot: {x: 0.7208481, y: 1.2391304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0085
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1700
+        width: 283
+        height: 115
+      alignment: 9
+      pivot: {x: 0.7208481, y: 1.2391304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0086
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1700
+        width: 283
+        height: 115
+      alignment: 9
+      pivot: {x: 0.7208481, y: 1.2391304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0087
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1690
+        width: 279
+        height: 116
+      alignment: 9
+      pivot: {x: 0.72043014, y: 1.2025862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0088
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1699
+        width: 279
+        height: 116
+      alignment: 9
+      pivot: {x: 0.72043014, y: 1.2025862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0089
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1582
+        width: 279
+        height: 116
+      alignment: 9
+      pivot: {x: 0.72043014, y: 1.2025862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0090
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1572
+        width: 279
+        height: 116
+      alignment: 9
+      pivot: {x: 0.72043014, y: 1.2025862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0091
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1572
+        width: 279
+        height: 116
+      alignment: 9
+      pivot: {x: 0.72043014, y: 1.2025862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0092
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 2046
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 204, y: -141.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0093
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 2046
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 204, y: -141.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hero0094
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 2046
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 204, y: -141.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

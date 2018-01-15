@@ -1,0 +1,8 @@
+<enum> 
+	<ZONGHE value="1" />
+	<SHIJIE value="2" />
+ 	<GANG value="3" />
+	<TEAM value="4" />
+ 	<SILIAO value="5" />
+	<MAX value="6" />
+ </enum>

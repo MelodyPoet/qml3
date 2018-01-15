@@ -1,0 +1,44 @@
+﻿ 
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+ 
+using starbucks.utils;
+using  modules.{-1}.model;
+using starbucks.ui.basic;
+namespace  modules.{-1}.{1}
+{
+    public class {2}Logic : BaseLogic<{2}View>
+    {
+        private {0}Model model = {0}Model.instance;
+       
+
+        public {2}Logic():base(ModuleUIEnum.{2})
+        {
+         //   new RegCreateViewEvente<{2}View>(uiID, "{2}", View.normalLayer.transform, this).excute();
+
+        }
+
+        public override void onInitView({2}View view)
+        {
+            base.onInitView(view);
+		//view call logic
+        // view.RequestXXX = RequestXXX;
+        //logic call view
+		//view.updateXXX(XXX);
+
+ 
+        }
+ 
+       
+     //  void RequestXXX(EventData e)
+     //   {
+     //   e.objVal,e.intVal;
+     // }
+
+       } 
+
+ 
+
+}

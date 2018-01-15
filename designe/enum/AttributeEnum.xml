@@ -1,0 +1,20 @@
+<enum>
+	<!--物理攻击-->
+	<ATTACK value="1" />
+	<!--物理防御-->
+	<DEFENCE value="2" />
+ 
+	<!--最大生命-->
+	<HP_MAX value="3" />
+ 
+	<!--敏捷 影响暴击和格挡-->
+	<DEXTERITY value="4" />
+ 
+    
+	<!--幸运 影响触发技能概率 百分比-->
+	<LUCK value="5" />
+
+	 
+	<MAX value="6" /> 
+	
+</enum>

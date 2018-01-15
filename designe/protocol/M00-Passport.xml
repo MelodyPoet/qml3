@@ -1,0 +1,69 @@
+<!--基础模块-->
+<Module id="0">
+<!-- 客户端发送 -->
+	<Requester>
+               <!--心跳包 网关需要判断 比较特殊所以放第一个 不能变位置-->
+        <Heartbeat discard="1">
+        </Heartbeat>
+		<Login>
+		     <app type="string"/>
+		</Login>
+	 
+		<!-- 角色创建 -->
+		<RoleCreate>
+			<name type="string" />
+		</RoleCreate>
+ 
+	<!-- 选择角色登陆游戏 -->
+		<StartGame>
+
+</StartGame>
+ 
+
+ </Requester>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+            	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- 服务端返回 -->
+	<Responder>
+        <Relogin>
+		 
+		</Relogin>
+<!-- 登陆结果-->
+		<Login>
+		<accountID type = "long"/>
+			<errorID type="byte" />
+			<serverTime type="int" />
+   <tempClientID type="byte"/>
+		</Login>
+<!-- 角色信息-->
+		<PassportRoleUpdate>
+		    <baseID type="byte" />
+			<level type="int" />
+      <equipItem type="PropPVo[]" />
+      
+			<zdl type="int" />
+			<name type="string" />
+	 
+		</PassportRoleUpdate>
+ 
+</Responder>
+
+
+	<!-- 协议数据结构 -->
+	<PVO>
+        
+	<PropPVo>
+		<tempID type="long" />
+		<baseID type="int" />
+        <attributeRnd type="byte[]" />
+        <exAttribute type="short[]" />
+        <intensify type="byte" />
+      <count type="int"/>
+      
+	</PropPVo>
+	 
+	</PVO>
+</Module>
+ 

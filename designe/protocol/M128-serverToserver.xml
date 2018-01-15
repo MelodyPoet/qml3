@@ -1,0 +1,19 @@
+<!--跨服通讯模块 客户端无权发送需要验证-->
+<Module id="128">
+<!-- 客户端请求 -->
+  <Requester>
+<ServerClientQuit>
+ <clientID type="long"/>
+</ServerClientQuit>
+ 
+    </Requester>
+   <Responder>
+     
+  </Responder>
+  
+  <!-- 协议数据结构 -->
+  <PVO>
+     
+  </PVO>
+
+</Module>

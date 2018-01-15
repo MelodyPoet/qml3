@@ -1,0 +1,16 @@
+<enum> 
+<!--城市-->
+<CAMP value="1" />
+<!--主线副本-->
+<NORMAL value="2" />
+<!--竞技场-->
+<ARENA value="3" />
+<!--稀有boss-->
+<BOSS value="4" />
+<!--爬塔-->
+<TWOER value="5" />
+ 
+
+<!--新手战斗-->
+<NEWGAME_FIGHT value="99" />
+</enum>

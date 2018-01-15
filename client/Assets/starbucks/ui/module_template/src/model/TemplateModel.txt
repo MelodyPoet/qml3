@@ -1,0 +1,12 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+ namespace modules.{-1}.model
+{
+    public class {0}Model
+    {
+        public static {0}Model instance = new {0}Model();
+		 public {0}Service service;
+         
+    }
+}

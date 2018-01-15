@@ -1,0 +1,9 @@
+client/Library/
+client/obj/
+designe/tools/server_out/
+designe/tools/Temp/
+server/.idea/
+client/Assets/protocol/
+client/Assets/table/
+client/Temp/
+client/.idea/

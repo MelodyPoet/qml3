@@ -1,0 +1,19 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using starbucks.ui.basic;
+ namespace modules.{-1}.model
+{
+    public class {0}Service:BaseService
+    {
+  
+		 private {0}Model model ={0}Model.instance;
+        public override void init()
+        {
+            base.init();
+
+        }
+
+         
+    }
+}

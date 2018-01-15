@@ -1,0 +1,214 @@
+﻿<enum type="short"> 
+	<!--等级-->
+	<LEVEL value="1" />
+	<!--经验-->
+	<EXP value="2" />
+	<!--金币-->
+	<MONEY value="3" />
+	<!--体力-->
+	<TILIZHI value="4" />
+	<!--钻石-->
+	<DIAMOND value="5" />
+	<!--体力等每日零点补满那天-->
+	<LAST_DAY value="6" />
+    
+    <!--夺宝碎片合成冷却结束时间戳-->
+	<CD_COMPOSE_CLIPS value="7" />
+	<!--拥有血瓶数量-->
+	<HP_COUNT value="8" />
+    <!--竞技场积分（荣誉徽章）-->
+	<CREDIT value="9" />
+ 
+	<!--体力可兑换次数-->
+	<EXCHANGE_TILI_COUNT value="10" />
+	<!--日常任务可做次数（上一个版本随机任务的次数）-->
+	<DAILY_MISSION_COUNT value="11" />
+	
+	<!--魂石可抽取次数 【每日重置】（逻辑有待调整）-->
+	<DRAGON_STONE_BUY_COUNT value="14" />
+	<!--竞技场可挑战次数 【每日重置】-->
+	<ARENA_FIGHT_COUNT value="15" />
+    <!--下次获得体力时间戳-->
+	<NEXTTIME_Tili value="16" />
+    <!--累积充值钻石数-->
+    <TOTAL_PAID value="17" />
+    <!-- 夺宝历练丹 -->
+	<SNATCH_COUNT value="18" />
+    <!--夺宝历练丹购买次数-->
+	<SNATCH_BUY_COUNT value="19" />
+    <!--夺宝保护结束时间戳-->
+	<NEXTTIME_SNATCH_SAFE value="20" />
+	<!--背包具体格子解锁冷却结束时间戳-->
+	<NEXTTIME_BAG_CELL value="21" />
+	<!--背包冷却完成格子数量-->
+	<BAG_CELL_CD_COUNT value="22" />
+	<!--背包已解锁格子数量-->
+	<BAG_CELL_HAVE_COUNT value="23" />
+	<!--背包格子冷却开始时间戳（服务端用的，客户端没用）-->
+	<BAG_REMOVE_CD_TIME value="24" />
+	<!--上次登录时间戳-->
+	<LAST_LOGIN_TIME value="25"/>
+	<!--毒虫巢穴当前层-->
+	<WormNestCurrentFloor value="26"/>
+	<!--毒虫巢穴历史最高层-->
+	<WormNestMaxFloor value="27"/>
+	<!--毒虫巢穴历史最高层挑战成功时间戳（用于记录玩家排名顺序）-->
+	<WormNestMaxFloorTime value="28"/>
+	<!--毒虫巢穴扫荡结束时间戳-->
+	<WormNestNextEndTime value="29"/>
+	<!--是否可以领公会即将开启奖励 【每日重置】-->
+	<IsGetGangAward value="30"/>
+	<!--毒虫巢穴重置次数-->
+	<WormNestResetTime value="31"/>
+	
+	<!--角色创建时间戳-->
+	<RoleCreatTime value="32"/>
+	<!--图腾升级累计冷却结束时间戳-->
+	<Talent_CD value="33"/>
+	<!--随机道具商店免费刷新次数-->
+	<PropShopFreeFlushTime value="34"/>
+	<!--随机道具商店冷却结束时间戳-->
+	<PropShopFlushCD value="35"/>
+	<!--随机道具商店道具组-->
+	<PropShopGroup value="36"/>
+    
+	<!-- 累计洗练次数-->
+	<LJ_REFINE_COUNT value="37"/>
+	<!-- 累计夺宝次数-->
+	<LJ_SNATCH_COUNT value="38"/>
+	<!-- 累计1V1战斗次数-->
+	<LJ_ARENA_COUNT value="39"/>
+	<!-- 累计在关卡中获得星数-->
+	<LJ_STARS_COUNT value="40"/>
+	<!-- 累计玩家消费金币数-->
+	<LJ_COST_MONEY_COUNT value="41"/>
+	<!-- 累计玩家消费钻石数-->
+	<LJ_COST_DIAMOND_COUNT value="42"/>
+	<!-- 累计玩家充值钻石数-->
+	<LJ_RECHARGE_DIAMOND_COUNT value="43"/>
+	<!-- 累计玩家签到天数-->
+	<LJ_SIGN_COUNT value="44"/>
+	<!-- 累计获得龙魂数-->
+	<LJ_DRAGON_COUNT value="45"/>
+	<!-- 累计分解装备数-->
+	<LJ_DISSOLVE_EQUIP_COUNT value="46"/>
+	<!-- 累计玩家在世界树发放红包金额-->
+	<LJ_REDPACKET_VALUE value="47"/>
+	<!-- 累计金币抽取魂石次数-->
+	<LJ_MONEY_BUY_DRAGON_STONE_COUNT value="48"/>
+	<!-- 累计钻石抽取魂石次数-->
+	<LJ_DIAMOND_BUY_DRAGON_STONE_COUNT value="49"/>
+	<!-- 累计金币抽取龙魂次数-->
+	<LJ_MONEY_BUY_DRAGON_COUNT value="50"/>
+	<!-- 累计钻石抽取龙魂次数-->
+	<LJ_DIAMOND_BUY_DRAGON_COUNT value="51"/>
+	<!-- 累计购买体力次数-->
+	<LJ_BUY_TILI_COUNT value="52"/>
+	<!-- 累计合成魂石次数-->
+	<LJ_UP_DRAGON_STONE_COUNT value="53"/>
+	<!-- 累计抚摸次数-->
+	<LJ_TOUCH_COUNT value="54"/>
+	<!-- 累计装备强化次数-->
+	<LJ_EQUIP_INTENSIFY_COUNT value="55"/>
+	<!-- 累计商城物品刷新次数-->
+	<LJ_SHOP_FLUSH_COUNT value="56"/>
+	<!-- 累计世界树发言次数-->
+	<LJ_TALK_COUNT value="57"/>
+	<!-- 累计世界树点赞次数-->
+	<LJ_LIKE_TALK_COUNT value="58"/>
+	<!-- 累计普通关卡通关次数-->
+	<LJ_NORMAL_PASS_COUNT value="59"/>
+	<!-- 累计幽冥之路通关次数-->
+	<LJ_YOU_MIN_PASS_COUNT value="60"/>
+	<!-- 累计元素宫殿通关次数-->
+	<LJ_YUAN_SU_PASS_COUNT value="61"/>
+	<!-- 累计巨龙宝藏通关次数-->
+	<LJ_DRAGON_PASS_COUNT value="62"/>
+	<!-- 龙魂最高等级 -->
+	<MAX_DRAGON_LEVEL value="63"/>
+	<!-- 非首饰强化最高等级 -->
+	<MAX_EQUIP_INTENSIFY_LEVEL value="64"/>
+	<!-- 首饰强化最高等级 -->
+	<MAX_JEWELRY_INTENSIFY_LEVEL value="65"/>
+	<!-- 图腾最高等级 -->
+	<MAX_TALENT_LEVEL value="66"/>
+	<!--体力等每个运营日补满那天-->
+	<LAST_RUN_DAY value="67" />
+	<!-- 累计钻石单抽龙魂次数-->
+	<LJ_DIAMOND_BUY_ONE_DRAGON_COUNT value="68"/>
+    <!--竞技场可兑换次数 【每日重置】-->
+	<EXCHANGE_ARENA_COUNT value="69" />
+	<!-- 副本重置次数【每日重置】-->
+	<NORMAL_RESET_COUNT value="70" />
+	<!-- 退会冷却时间 -->
+	<NEXT_TIME_JOIN_GANG value="71" />
+	<!-- 可抚摸次数 -->
+	<CAN_TOUCH_COUNT value="72" />
+	<!-- 年卡 -->
+	<YEAR_CARD value="73" />
+	<!-- 年卡过期时间戳 -->
+	<YEAR_CARD_END_TIME value="74" />
+	<!-- 月卡 -->
+	<MONTH_CARD value="75" />
+	<!-- 月卡过期时间戳 -->
+	<MONTH_CARD_END_TIME value="76" />
+	<!-- 摇钱树次数 -->
+	<MONEY_TREE_COUNT value="77" />
+	<!-- 下次摇钱树时间戳 -->
+	<MONEY_TREE_NEXT_TIME value="78" />
+	<!-- 每日活跃度 -->
+	<DAILY_LIVENESS value="79" />
+	<!-- 活跃度 -->
+	<LIVENESS value="80" />
+	<!-- 累计图腾升级次数 -->
+	<LJ_TALENT_UP_COUNT value="81" />
+	<!-- 累计获得龙魂原石数 -->
+	<LJ_DRAGON_EGG_COUNT value="82" />
+	<!-- 累计孵化龙魂原石数 -->
+	<LJ_HATCH_DRAGON_STONE value="83" />
+	<!-- 累计活跃度 -->
+	<LJ_LIVENESS value="84" />
+	<!-- 累计魂石数 -->
+	<LJ_DRAGON_STONE_COUNT value="85" />
+	<!-- 累计龙魂升级次数 -->
+	<LJ_DRAGON_UP_COUNT value="86" />
+	<!-- 魂印 -->
+	<RED_NESS_MONEY value="87" />
+	<!-- 精英关卡挑战可购买次数 -->
+	<ELITE_BUY_COUNT value="88" />
+	<!-- 世界boss最高伤害 -->
+	<MAX_WORLD_BOSS_HURT value="89" />
+	<!-- 世界boss累计伤害 -->
+	<LJ_WORLD_BOSS_HURT value="90" />
+	<!-- 充能灵能 -->
+	<POWER_SPIRITE value="91" />
+	<!-- 开启装备背包次数 -->
+	<OPEN_EQUIP_BAG_COUNT value="92" />
+	<!-- 武器背包格子数 -->
+	<EQUIP_BAG_COUNT value="93" />
+	<!-- 灵能 -->
+	<TALENT_EXP value="94" />
+	<!-- 开采次数 -->
+	<MR_EXPLOIT_COUNT value="95" />
+	<!-- 寻找免费次数 -->
+	<MR_SEARCH_COUNT value="96" />
+	<!-- 矿石数 -->
+	<MR_MINE_COUNT value="97" />
+	<!-- 抢夺次数 -->
+	<MR_LOOT_COUNT value="98" />
+	<!-- 招募免费次数 -->
+	<MR_FREE_RECRUIT_COUNT value="99" />
+	<!-- 道具抽取免费次数 -->
+	<LotteryPropFreeCount value="100" />
+	<!-- 魂石抽取折扣次数 -->
+	<LotteryStoneCount value="101" />
+	<!-- 龙魂抽取折扣次数 -->
+	<LotteryDragonCount value="102" />
+	<!-- 魂石抽取下次免费时间戳 -->
+	<LotteryStoneNextTime value="103" />
+	<!-- 龙魂抽取下次免费时间戳 -->
+	<LotteryDragonNextTime value="104" />
+	<!-- 累计祭坛抽取次数 -->
+	<LJ_LOTTERY_COUNT value="105" />
+	<MAX value="127" />
+</enum>

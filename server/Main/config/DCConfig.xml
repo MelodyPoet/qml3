@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+    <config type="type">
+        <serverName>测试服务器</serverName>
+        <appid>519493FA90E81B312549C06338C2ACCE</appid>
+        <baseFileDir>/Users/jackie/Desktop/serverData</baseFileDir>
+        <maxHistoryLogFile>7</maxHistoryLogFile>
+        <maxHistoryDataFile>10000</maxHistoryDataFile>
+    </config>
+</configs>

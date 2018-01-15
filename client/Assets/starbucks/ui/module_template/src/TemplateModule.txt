@@ -1,0 +1,31 @@
+﻿using starbucks.basic;
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+using starbucks.utils;
+using modules.{-1}.main;
+using modules.{-1}.model;
+using starbucks.ui.basic;
+namespace modules.{-1}
+{
+    public   class {0}Module : BaseModule
+    {
+          private {0}Model model = {0}Model.instance;
+ 
+        public override void init()
+        {
+           base.init();
+            model.service=new {0}Service();
+          RegLogic(new {0}Logic());
+ 
+           
+        }
+
+
+ 
+
+    }
+
+}

@@ -1,0 +1,9 @@
+<enum>
+	<!--背包 -->
+	<BAG value="1" />
+	<!--仓库 -->
+	<BANK value="2" />
+    <!--英雄装备 -->
+	<EQUIP value="3" />
+
+</enum>
