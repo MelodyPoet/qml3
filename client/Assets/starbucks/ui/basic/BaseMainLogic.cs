@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using starbucks.basic;
 using starbucks.uguihelp;
 using starbucks.utils;
@@ -13,6 +14,7 @@ namespace starbucks.ui.basic
         private string prefabName;
         private string[] refRes;
         public string moduleRes;
+        private List<string> usingAssets=new List<string>();
         private LoadStateEnum resState= LoadStateEnum.EMPTY;
 
         public AssetBundle mainAssetBundle
@@ -73,8 +75,8 @@ namespace starbucks.ui.basic
         private    IEnumerator loading(Action onLoad)
         {
     
-            yield return  loadRes();
-            mainAssetBundle = UIAssetBundleManager.getOne(moduleRes);
+            yield return  glbCoroutine.StartCoroutine(loadRes());
+            mainAssetBundle = AssetBundleManager.getOne("ui/"+moduleRes+".abd");
             onLoadCmpCall(mainAssetBundle.LoadAsset<GameObject>(prefabName));
   
             onLoad();
@@ -131,10 +133,10 @@ namespace starbucks.ui.basic
             {
                 for (int i = 0; i < refRes.Length; i++)
                 {
-                    yield return glbCoroutine.StartCoroutine(UIAssetBundleManager.load(refRes[i]));
+                    yield return glbCoroutine.StartCoroutine(AssetBundleManager.load("ui/"+refRes[i]+".abd",usingAssets));
                 }
             }
-            if(moduleRes!=null)   yield return glbCoroutine.StartCoroutine(UIAssetBundleManager.load(moduleRes));
+            if(moduleRes!=null)   yield return glbCoroutine.StartCoroutine(AssetBundleManager.load("ui/"+moduleRes+".abd",usingAssets));
           
           
             resState = LoadStateEnum.LOADED;
@@ -148,17 +150,7 @@ namespace starbucks.ui.basic
                 throw new Exception("unloadRes:"+this+":when "+resState);
                 return;
             }
-            if (moduleRes != null)
-            {
-                UIAssetBundleManager.unload(moduleRes);
-            }
-            if (refRes != null)
-            {
-                for (int i = 0; i < refRes.Length; i++)
-                {
-                    UIAssetBundleManager.unload(refRes[i]);
-                }
-            }
+            AssetBundleManager.unload(usingAssets);
             resState = LoadStateEnum.EMPTY;
         }
         #endregion

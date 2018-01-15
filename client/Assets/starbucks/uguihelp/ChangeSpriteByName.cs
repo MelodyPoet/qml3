@@ -1,4 +1,5 @@
-﻿using starbucks.ui;
+﻿using starbucks.basic;
+using starbucks.ui;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,7 +26,7 @@ namespace starbucks.uguihelp
             foreach (var item in assetsNames)
             {
           
-                Sprite sp=     UIAssetBundleManager.getSprite (item, spriteName);
+                Sprite sp=     AssetBundleManager.getSprite (item, spriteName);
                 if (sp != null) {
                     img.sprite = sp;
                     return sp;

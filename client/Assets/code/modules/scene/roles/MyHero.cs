@@ -19,12 +19,12 @@ namespace modules.scene.roles
 
         public void loadres()
         {
-            AssetBundleMgr.loadAndDestroy("npc/hero.abd", (ab) =>
+           GlobalCoroutine.instance.StartCoroutine( AssetBundleManager.load("npc/hero.abd",null, (ab) =>
             {
                GameObject res= Instantiate( ab.LoadAsset<GameObject>("hero"));
                 res.transform.SetParent(transform);
                 TransformUtils.resetMatrix(res.transform);
-            });
+            }));
         }
     }
 }

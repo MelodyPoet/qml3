@@ -88,7 +88,7 @@ namespace starbucks.utils
 				if(child!=null)
 					child.Play (lab);
 			}
-			Debug.LogError (lab);
+			//Debug.LogError (lab);
 			currentClip = clipsMap[lab];
 			if (currentClip.enterAction != null)
 				currentClip.enterAction();
@@ -152,7 +152,7 @@ namespace starbucks.utils
 			}
 
 			Sprite nextSprite = spritesAsset.sprites[currentClip.startFrame + index];
-			Debug.Log(nextSprite+"---"+ index);
+		//	Debug.Log(nextSprite+"---"+ index);
 			if ( spriteRenderer.sprite == null ||spriteRenderer.sprite.texture!=nextSprite.texture|| spriteRenderer.sprite.rect.position != nextSprite.rect.position)
 			{
 				spriteRenderer.sprite = nextSprite;

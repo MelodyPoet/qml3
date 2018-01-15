@@ -1,12 +1,12 @@
-﻿/*using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using starbucks.basic;
 using UnityEngine;
 
-namespace starbucks.ui
+namespace starbucks.basic
 {
-	public class UIAssetBundleManager 
+	public class AssetBundleManager 
 	{
 		static Dictionary<string,AssetBundleCache> allitems=new  Dictionary<string, AssetBundleCache>();
 		public	static	AssetBundle getOne (string key)
@@ -23,13 +23,22 @@ namespace starbucks.ui
 			return	allitems [key].assetBundle.LoadAsset<Sprite> (spriteName);
 		}
 
-		public static IEnumerator load(string resName, Action<AssetBundle> onLoad=null)
+		public static AssetBundle loadSimple(string resName)
+		{
+			return AssetBundle.LoadFromFile(PathManager.fullPath(resName, ResPath.autoStreamOrPersistent, false));
+			
+		}
+
+		public static IEnumerator load(string resName, List<string> usingItems=null, Action<AssetBundle> onLoad=null)
 		{
 			AssetBundleCache abc;
+			if(usingItems!=null)
+			usingItems.Add(resName);
 			if (allitems.TryGetValue(resName,out abc) == false)
 			{
-			
-				AssetBundleCreateRequest	  abr = AssetBundleMgr.loadOnceAsync("ui/" + resName + ".abd");;
+				   
+
+				AssetBundleCreateRequest	abr = AssetBundle.LoadFromFileAsync(PathManager.fullPath(resName, ResPath.autoStreamOrPersistent, false));
 				if (abr == null)
 				{
 					Debug.LogError(resName + " is null");
@@ -60,17 +69,24 @@ namespace starbucks.ui
 
 		}
 
-		public static void unload(string resName)
+		public static void unload(List<string> usingItems, bool forceUnload=false)
 		{
-			AssetBundleCache abc = getOneCache(resName);
-			if (abc == null) return;
-			abc.used--;
-			if (abc.used <= 0)
+			if (usingItems == null) return;
+			foreach (var resName in usingItems)
 			{
-				abc.assetBundle.Unload(true);
-				allitems.Remove(resName);
-				Debug.Log("unload:"+resName);
+				AssetBundleCache abc = getOneCache(resName);
+				if (abc == null) return;
+				abc.used--;
+				if (forceUnload) abc.used = 0;
+				if (abc.used <= 0)
+				{
+					abc.assetBundle.Unload(true);
+					allitems.Remove(resName);
+					Debug.Log("unload:"+resName);
+				}
 			}
+			usingItems.Clear();
+			
 		}
 	
 	}
@@ -81,4 +97,4 @@ namespace starbucks.ui
 		public int used=0;
 
 	}
-}*/
+}

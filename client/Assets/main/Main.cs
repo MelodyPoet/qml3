@@ -16,9 +16,10 @@ public class Main : MonoBehaviour {
 		gameObject.AddComponent<GlobalCoroutine>();
 		CoreLibCallBack.isReourcesLoadMode = true;
 		CoreLibCallBack.localResPath = "c:/m1_res";
-		AssetBundle assetBundle = AssetBundleMgr.loadOnce("gameroot.abd");
+		AssetBundle assetBundle = AssetBundleManager.loadSimple("gameroot.abd");
  
          GameObject gameroot=	Instantiate(assetBundle.LoadAsset<GameObject>("gameroot"));
+		assetBundle.Unload(false);
 		TransformUtils.resetMatrix(gameroot.transform);
 		UguiRoot.init(gameroot.transform.Find("uiroot").GetComponent<Canvas>());
 

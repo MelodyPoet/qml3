@@ -27,10 +27,10 @@ namespace  modules.scene.main
 
         public void loadScene()
         {
-            AssetBundleMgr.loadAndDestroy("map/map_city.abd", (ab) =>
+          GlobalCoroutine.instance.StartCoroutine(  AssetBundleManager.load("map/map_city.abd",null, (ab) =>
             {
               currentScene= Instantiate( ab.LoadAsset<GameObject>("map_city")); 
-            });
+            }));
             if (MyHero.instance == null)
             {
                 new GameObject("myHero").AddComponent<MyHero>();

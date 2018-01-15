@@ -90,13 +90,14 @@
     <Compile Include="Assets\protocol\RoleCreateRqst.cs" />
     <Compile Include="Assets\protocol\ServerClientQuitRqst.cs" />
     <Compile Include="Assets\protocol\StartGameRqst.cs" />
-    <Compile Include="Assets\starbucks\basic\AssetBundleMgr.cs" />
+    <Compile Include="Assets\starbucks\basic\AssetBundleManager.cs" />
     <Compile Include="Assets\starbucks\basic\ByteArray.cs" />
     <Compile Include="Assets\starbucks\basic\EventDispatcher.cs" />
     <Compile Include="Assets\starbucks\basic\GlobalCoroutine.cs" />
     <Compile Include="Assets\starbucks\basic\IByteVo.cs" />
     <Compile Include="Assets\starbucks\basic\ICommand.cs" />
     <Compile Include="Assets\starbucks\basic\LoadStateEnum.cs" />
+    <Compile Include="Assets\starbucks\basic\PathManager.cs" />
     <Compile Include="Assets\starbucks\basic\SceneCoroutine.cs" />
     <Compile Include="Assets\starbucks\socket\BaseRqst.cs" />
     <Compile Include="Assets\starbucks\socket\BaseRspd.cs" />
@@ -159,6 +160,7 @@
     <Compile Include="Assets\table\PropCellEnum.cs" />
     <Compile Include="Assets\table\PropTypeEnum.cs" />
     <Compile Include="Assets\table\UserDataEnum.cs" />
+    <Compile Include="Assets\Test2.cs" />
     <Compile Include="Assets\utils\AverageMove.cs" />
     <Compile Include="Assets\utils\CurveMove.cs" />
     <Compile Include="Assets\utils\PlayMovieClipCmd.cs" />
