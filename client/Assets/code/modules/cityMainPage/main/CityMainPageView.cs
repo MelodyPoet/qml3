@@ -16,7 +16,7 @@ namespace  modules.cityMainPage.main
          
         public override void Init()
         {
-  
+            transform.Find("myHead").gameObject.AddComponent<CityMyHeadKit>();
         }
  
         

@@ -130,7 +130,7 @@ namespace starbucks.socket.tcp
 			eventQueue.Clear();
 			foreach (EventData item in temp) {
 	 
-				SocketService.instance.DispatchEvent(item);
+				EventDispatcher.globalDispatcher.DispatchEvent(item);
 		 
 			}
 	

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
   <config>
     <serverID>3</serverID>
-    <sqlCmd>jdbc:mysql://192.168.9.112:3306/server_list?characterEncoding=utf-8</sqlCmd>
+    <sqlCmd>jdbc:mysql://127.0.0.1:3306/server_list?characterEncoding=utf-8</sqlCmd>
     <sqlUser>root</sqlUser>
     <sqlPwd>123456</sqlPwd>
 </config>

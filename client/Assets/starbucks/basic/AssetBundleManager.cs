@@ -32,13 +32,15 @@ namespace starbucks.basic
 		public static IEnumerator load(string resName, List<string> usingItems=null, Action<AssetBundle> onLoad=null)
 		{
 			AssetBundleCache abc;
-			if(usingItems!=null)
-			usingItems.Add(resName);
-			if (allitems.TryGetValue(resName,out abc) == false)
-			{
-				   
 
-				AssetBundleCreateRequest	abr = AssetBundle.LoadFromFileAsync(PathManager.fullPath(resName, ResPath.autoStreamOrPersistent, false));
+			if (allitems.TryGetValue(resName, out abc) == false)
+			{
+				abc = new AssetBundleCache();
+
+				allitems[resName] = abc;
+				abc.state = LoadStateEnum.LOADING;
+				AssetBundleCreateRequest abr =
+					AssetBundle.LoadFromFileAsync(PathManager.fullPath(resName, ResPath.autoStreamOrPersistent, false));
 				if (abr == null)
 				{
 					Debug.LogError(resName + " is null");
@@ -46,20 +48,30 @@ namespace starbucks.basic
 				//CpuDebuger.print ("load::"+assetName);
 				while (abr.isDone == false)
 				{
+				
 					yield return null;
-
 				}
-			 
-		 
 
+
+				Debug.Log("load new :" + resName);
 				abr.assetBundle.Contains("");
-				abc = new AssetBundleCache();
+
 				abc.assetBundle = abr.assetBundle;
-				allitems[resName] = abc;
-				Debug.Log("load new :"+resName);
+				abc.state = LoadStateEnum.LOADED;
+
 
 			}
- 
+			else
+			{
+				while (abc.state != LoadStateEnum.LOADED)
+				{
+						yield return null;
+				}
+			 
+			}
+
+			if(usingItems!=null)
+				usingItems.Add(resName);
 			abc.used++;
 	 
 			if (onLoad != null)
@@ -93,6 +105,7 @@ namespace starbucks.basic
 
 	class  AssetBundleCache
 	{
+		public LoadStateEnum state = LoadStateEnum.EMPTY;
 		public AssetBundle assetBundle;
 		public int used=0;
 

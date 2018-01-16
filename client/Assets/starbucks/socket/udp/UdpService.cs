@@ -46,16 +46,17 @@ public class UdpService
 
 	}
  
-	public void connect(string url){
-  
+	public void connect(long guid,string url)
+	{
+		 BaseRqst.guid = guid;
 		string[] items =	url.Split (':');
-		connect (items [0], int.Parse (items [1]));
+		connect (guid,items [0], int.Parse (items [1]));
 		//connect ("192.168.0.99", 9091);//int.Parse(items[1]));
 	}
-	public void connect(string ip,int port)
+	public void connect(long guid,string ip,int port)
 	{
 		//Tools.Trace("create socket"+ip);
-
+		BaseRqst.guid = guid;
 		iPEndPoint = new IPEndPoint (IPAddress .Parse (ip),port);
             checkData = new byte[8 + 2];
             ByteArray bytes = new ByteArray(checkData);
@@ -290,7 +291,7 @@ public class UdpService
 		eventQueue.Clear();
 		foreach (EventData item in temp) {
 
-                SocketService.instance.DispatchEvent(item);
+			EventDispatcher.globalDispatcher.DispatchEvent(item);
                
 		}
 		 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using modules.scene.main;
 using starbucks.basic;
 using starbucks.socket;
+using starbucks.socket.udp;
 using starbucks.uguihelp;
 using starbucks.ui;
 using starbucks.utils;
@@ -28,11 +29,12 @@ public class Main : MonoBehaviour {
 		//EventDispatcher.globalDispatcher.DispatchEvent(ModuleEvent.SHOW_MAIN_VIEW, ModuleEnum.PASSPORT);
 		new ShowViewCmd(ModuleEnum.PASSPORT).excute();
 		gameObject.AddComponent<GameScene>();
+		new RegRspdClassCmd().execute();
 		yield break;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		UdpService.instance.dispachAllEvent();
 	}
 }

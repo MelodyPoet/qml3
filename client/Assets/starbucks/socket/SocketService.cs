@@ -5,12 +5,11 @@ using UnityEngine;
 
 namespace starbucks.socket
 {
-    public class SocketService : EventDispatcher
+    public class SocketService 
     {
         public static readonly SocketService instance = new SocketService();
         public Dictionary<int, Type> rspdClassDic= new Dictionary<int, Type>();
-        private  EventDispatcher _eventDispatcher=new EventDispatcher();
-        public void regRspdClass(int proID, Type rspdClass)
+         public void regRspdClass(int proID, Type rspdClass)
         {
 
             rspdClassDic[proID] = rspdClass;//.GetConstructor(new Type[0]);

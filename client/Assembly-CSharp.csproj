@@ -54,10 +54,15 @@
   <ItemGroup>
     <Compile Include="Assets\code\modules\cityMainPage\CityMainPageEvent.cs" />
     <Compile Include="Assets\code\modules\cityMainPage\CityMainPageModule.cs" />
+    <Compile Include="Assets\code\modules\cityMainPage\kits\CityMyHeadKit.cs" />
     <Compile Include="Assets\code\modules\cityMainPage\main\CityMainPageLogic.cs" />
     <Compile Include="Assets\code\modules\cityMainPage\main\CityMainPageView.cs" />
     <Compile Include="Assets\code\modules\cityMainPage\model\CityMainPageModel.cs" />
     <Compile Include="Assets\code\modules\cityMainPage\model\CityMainPageService.cs" />
+    <Compile Include="Assets\code\modules\createrole\CreateroleEvent.cs" />
+    <Compile Include="Assets\code\modules\createrole\CreateroleModule.cs" />
+    <Compile Include="Assets\code\modules\createrole\main\CreateroleLogic.cs" />
+    <Compile Include="Assets\code\modules\createrole\main\CreateroleView.cs" />
     <Compile Include="Assets\code\modules\passport\login\LoginLogic.cs" />
     <Compile Include="Assets\code\modules\passport\login\LoginView.cs" />
     <Compile Include="Assets\code\modules\passport\main\PassportLogic.cs" />

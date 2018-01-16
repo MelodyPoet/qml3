@@ -8,13 +8,18 @@ namespace starbucks.ui.basic
 
         public EventDispatcher dispatcher = EventDispatcher.globalDispatcher;
      
-        protected MonoBehaviour app ;
+        protected GlobalCoroutine globalCoroutine= GlobalCoroutine.instance;
         public virtual void Init()
         {
             
         }
 
-    
+        public override void Awake()
+        {
+            base.Awake();
+            Init();
+        }
+
         //public virtual void Show(params object[] args)
         //{
         //     SetActive(true);

@@ -311,7 +311,7 @@ namespace starbucks.socket.http
 
             foreach (EventData item in temp)
             {
-                SocketService.instance.DispatchEvent(item);
+                EventDispatcher.globalDispatcher.DispatchEvent(item);
             }
             if (tempCallback != null)
             {

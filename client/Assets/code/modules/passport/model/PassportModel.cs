@@ -7,6 +7,7 @@ using UnityEngine;
     {
         public static PassportModel instance = new PassportModel();
 		 public PassportService service;
-         
+        public bool hasRole = false;
+        public string roleName="";
     }
 }

@@ -1,9 +1,3 @@
-import airing.LoopAiringModel;
-import base.SystemLoopModel;
-import mail.LoopSendMailModel;
-import arena.ArenaModel;
-import redness.RednessLoopModel;
-import talk.LoopSendTalkModel;
 
 /**
  * Created by jackie on 16-4-1.
@@ -32,13 +26,10 @@ tim++;
     }
 
     private void loop1Se() {
-        SystemLoopModel.loop();
+
     }
     private void loop10Se() {
-        ArenaModel.loopCompleteFight();
-        LoopSendMailModel.loopSendMail();
-        LoopSendTalkModel.loopSendTalk();
-        LoopAiringModel.loopSendAiring();
+
     }
     private void loop1Min() {
 

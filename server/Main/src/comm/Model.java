@@ -13,9 +13,7 @@ import java.util.*;
 public class Model extends qmshared.Model {
 
     public  static HashSet<Integer> mergeSet=new HashSet<>();
-   // public static Map<Long, CacheUserVo> campUsers=new HashMap<>();
-    public static Map<Long, CacheUserVo> mineCampUsers=new HashMap<>();
-    public static void init() throws Exception {
+      public static void init() throws Exception {
         qmshared.Model.init();
     }
 }

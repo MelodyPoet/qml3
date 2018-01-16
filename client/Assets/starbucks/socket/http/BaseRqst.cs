@@ -33,7 +33,7 @@ namespace starbucks.socket.http
         {
             Debug.Log("send:" + proID + ",len:" + bytes.stream.Position);
             HttpService.instance.send(bytes, tempCallback, noRspd);
-            SocketService.instance.DispatchEvent("RQST" + proID, this);
+           // SocketService.instance.DispatchEvent("RQST" + proID, this);
         }
 
         public void sendHttp(HttpService http, string tempUnID)

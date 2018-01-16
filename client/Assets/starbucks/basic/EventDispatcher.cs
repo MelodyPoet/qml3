@@ -135,6 +135,11 @@ namespace starbucks.basic
             get { return objVal; }
         }
         public object   returnVal;
+        public EventData(string eventType ,object val)
+        {
+            this.eventType = eventType;
+            objVal = val;
+        }
         public EventData(int val)
         {
             intVal = val;
