@@ -53,12 +53,8 @@ public class MessageServer {
                  client=new Client();
                  client.guid=uid;
                  Client.setOneAbs(uid,client);
-                if (proID != LoginRqst.PRO_ID) {
+                 client.initRedisTable();
 
-                } else {
-                    client = new Client();
-                    client.guid = uid;
-                }
                 if (client == null) return;
 
             }

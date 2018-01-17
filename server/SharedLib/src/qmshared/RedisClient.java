@@ -8,6 +8,8 @@ public class RedisClient {
         if(jedis==null){
             jedis=    new Jedis("localhost");
         }
+
         return jedis;
     }
+
 }

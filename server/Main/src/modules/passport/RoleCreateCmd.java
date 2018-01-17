@@ -6,6 +6,8 @@ import protocol.*;
 import qmshared.RedisClient;
 import redis.clients.jedis.Jedis;
 
+import java.util.HashMap;
+
 
 public class RoleCreateCmd extends BaseRqstCmd {
 
@@ -13,13 +15,12 @@ public class RoleCreateCmd extends BaseRqstCmd {
 	public void execute(Client client,User user, BaseRqst baseRqst) {
 
         RoleCreateRqst rqst=	(RoleCreateRqst)baseRqst;
-		Jedis jedis= RedisClient.getOne();
 
-		if(jedis.exists("passport:level:"+client.guid)){
+		if(client.rtPassport.existTable()){
 			return;
 		}
-		jedis.set("passport:level:"+client.guid, 1+"");
-		jedis.set("passport:uname:"+client.guid,rqst.name);
+
+		client.rtPassport.setField(RedisTablePassport.uname,rqst.name,RedisTablePassport.level,"1");
 		new PassportRoleUpdateRspd(client,1,rqst.name);
 
 
