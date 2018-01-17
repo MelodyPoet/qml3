@@ -4,6 +4,9 @@ import comm.BaseRqstCmd;
 
 import gluffy.comm.BaseRqst;
 import gluffy.comm.RqstPool;
+import modules.scene.SceneEnterCmd;
+import modules.scene.SceneFindMonsterCmd;
+import protocol.SceneEnterRqst;
 
 
 /**
@@ -12,7 +15,8 @@ import gluffy.comm.RqstPool;
 public class RqstCmdModel {
   public  static   Class<?>[] cmdClassList=new Class<?>[]{LoginCmd.class,
             RoleCreateCmd.class,
-            StartGameCmd.class,
+          SceneEnterCmd.class,
+          SceneFindMonsterCmd.class
 
   };
 

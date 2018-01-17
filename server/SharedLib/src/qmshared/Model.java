@@ -25,6 +25,7 @@ public class Model  extends gluffy.utils.Model {
      public static Map<Integer, MapBaseVo> MapBaseMap;
 //    public static Map<Integer, PropBaseVo> PropBaseMap;
     public static Map<Integer, NpcBaseVo> NpcBaseMap;
+    public static Map<Integer, ArrayList<NpcLayoutBaseVo>> NpcLayoutBaseMap;
  //   public static Map<Integer, RoleBaseVo> RoleBaseMap;
   //  public static Map<Integer, RoleLevelBaseVo> RoleLevelBaseMap;
    // public static Map<Integer, ArrayList<DropBaseVo>> DropBaseMap;

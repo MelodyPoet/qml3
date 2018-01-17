@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using modules.scene;
 using starbucks.basic;
+using starbucks.uguihelp;
 using starbucks.utils;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,17 +22,18 @@ public class HurtCmd :ICommand {
 		GameObject goHurt = null;
 		if (isHero) {
 			goHurt = GameObject.Instantiate<GameObject> (Resources.Load<GameObject> ("hurt_text_left"));
-			goHurt.transform.SetParent (GameObject.Find ("Canvas").transform);
+			goHurt.transform.SetParent (UguiRoot.rootCanvas.transform);
 			goHurt.transform.localPosition =  new Vector3(0,0,0);
 			//goHurt.transform.position = roleMc.transform.position;
 
 		} else {
 			goHurt = GameObject.Instantiate<GameObject> (Resources.Load<GameObject> ("hurt_text_right"));
-			goHurt.transform.SetParent (GameObject.Find ("Canvas").transform);
+			goHurt.transform.SetParent (UguiRoot.rootCanvas.transform);
 			goHurt.transform.localPosition =  new Vector3(400,0,0);
 		}
+		EventDispatcher.globalDispatcher.DispatchEvent(SceneEvent.EVENT_SCENE_HURT, isHero, point);
 		//roleMc.roleHp -= point;
-		Test.instance.onUpdateHp();
+		//Test.instance.onUpdateHp();
 		goHurt.GetComponentInChildren<Text> ().text = "-" + point;
 
 	}

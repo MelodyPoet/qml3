@@ -20,7 +20,9 @@ public class RoleCreateCmd extends BaseRqstCmd {
 		}
 		jedis.set("passport:level:"+client.guid, 1+"");
 		jedis.set("passport:uname:"+client.guid,rqst.name);
-		new PassportRoleUpdateRspd(client,(byte)1,1,null,0,rqst.name);
+		new PassportRoleUpdateRspd(client,1,rqst.name);
+
+
 
  	}
 

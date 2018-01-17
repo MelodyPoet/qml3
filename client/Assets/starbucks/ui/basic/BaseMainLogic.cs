@@ -42,17 +42,17 @@ namespace starbucks.ui.basic
             if (eventData.intVal == moduleID)
             {
               
-                if (view != null)
+           /*     if (view != null)
                 {
                     show(eventData.aryVal);
                 }
                 else
-                {
+                {*/
                     glbCoroutine.StartCoroutine(loading(() =>
                     {
                         show(eventData.aryVal);
                     }));
-                }
+              //  }
 
             }
         }
@@ -85,7 +85,11 @@ namespace starbucks.ui.basic
         {
             //CpuDebuger.print ("Instantiate::");
             //asset.gameObject.SetActive(needShowAfterLoad);
-
+            if (asset == null)
+            {
+                throw new Exception("asset is null" +prefabName);
+                return;
+            }
             GameObject ui = GameObject.Instantiate<GameObject>(asset);
 
 
@@ -147,8 +151,8 @@ namespace starbucks.ui.basic
 
             if (resState != LoadStateEnum.LOADED)
             {
-                throw new Exception("unloadRes:"+this+":when "+resState);
-                return;
+               // throw new Exception("unloadRes:"+this+":when "+resState);
+               // return;
             }
             AssetBundleManager.unload(usingAssets);
             resState = LoadStateEnum.EMPTY;

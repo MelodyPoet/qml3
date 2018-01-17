@@ -7,6 +7,7 @@ using UnityEngine;
     {
         public static SceneModel instance = new SceneModel();
 		 public SceneService service;
-         
+        public MapBaseVo currentMap;
+        public NpcLayoutBaseVo currentNpcLayout;
     }
 }

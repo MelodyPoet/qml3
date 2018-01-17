@@ -31,7 +31,7 @@ public class GameServer  {
         long serverID = Long.parseLong(rootEl.getChild("serverID").getValue());
         Model.configXmlDoc = doc;
         Model.openDay = Calendar.getInstance();
-
+Model.init();
         new SysLoop().start();
         CpuDebuger.print("SysLoop", 0);
 

@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 963dec2d9e6e477d9fb280e56403fe5f, type: 3}
-  m_Name: Asset
+  m_Name: lvduwa
   m_EditorClassIdentifier: 
   sprites:
   - {fileID: 21300000, guid: 8c579671548084c8d9c67ceae999d139, type: 3}
@@ -97,3 +97,5 @@ MonoBehaviour:
   - {fileID: 21300164, guid: 8c579671548084c8d9c67ceae999d139, type: 3}
   - {fileID: 21300166, guid: 8c579671548084c8d9c67ceae999d139, type: 3}
   - {fileID: 21300168, guid: 8c579671548084c8d9c67ceae999d139, type: 3}
+  - {fileID: 0}
+  offsetPos: {x: -0.68, y: 1.33, z: 0}

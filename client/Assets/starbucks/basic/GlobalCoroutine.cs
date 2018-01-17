@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections;
+using UnityEngine;
 
 namespace starbucks.basic
 {
@@ -15,6 +17,16 @@ namespace starbucks.basic
 		{
 			instance = this;
 		}
- 
+
+		public void delayApply(float time,Action action)
+		{
+			StartCoroutine(delay(time, action));
+		}
+
+		private IEnumerator delay(float time,Action action)
+		{
+			yield return new WaitForSeconds(time);
+			action();
+		}
 	}
 }

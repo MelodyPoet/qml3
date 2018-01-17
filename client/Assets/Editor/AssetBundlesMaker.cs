@@ -1,6 +1,7 @@
 ﻿using UnityEditor;
 using System.Collections;
 using System.Collections.Generic;
+using starbucks.utils;
 using UnityEngine;
 using UnityEditor.SceneManagement;
 
@@ -53,7 +54,7 @@ public class AssetBundlesMaker : EditorWindow {
 
 				static void setAssetBundleName(Object[] objs, string firstPath){
 						foreach (Object obj in objs) {
-								if (obj.GetType () == typeof(UnityEditor.SceneAsset) ||   obj.GetType () == typeof(GameObject) || obj.GetType () == typeof(Texture2D) || obj.GetType () == typeof(Material)) {
+								if (obj.GetType () == typeof(MovieClipAsset) ||obj.GetType () == typeof(UnityEditor.SceneAsset) ||   obj.GetType () == typeof(GameObject) || obj.GetType () == typeof(Texture2D) || obj.GetType () == typeof(Material)) {
 										string objPath = AssetDatabase.GetAssetPath (obj);
 										var importer = AssetImporter.GetAtPath (objPath);
 										if(firstPath.Length == 0)

@@ -13,13 +13,14 @@ namespace  modules.passport.login
     public class LoginView: BaseView
     {
         //view call logic
-        public Action RequestLoginClk;
+        public Action<int> RequestLoginClk;
          
         public override void Init()
         {
             UIEventListener.Get(transform.Find("btnLogin").gameObject).onClick =(go)=>
             {
-                RequestLoginClk();
+               
+                RequestLoginClk(int.Parse( transform.Find("iptUid").GetComponent<InputField>().text));
             };
         }
  

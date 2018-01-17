@@ -14,7 +14,7 @@ namespace starbucks.ui
 
         public void excute()
         {
-        starbucks.basic.EventDispatcher.globalDispatcher.DispatchEvent(ModuleEvent.SHOW_MAIN_VIEW, moduleID);
+       EventDispatcher.globalDispatcher.DispatchEvent(ModuleEvent.SHOW_MAIN_VIEW, moduleID);
         }
     }
 

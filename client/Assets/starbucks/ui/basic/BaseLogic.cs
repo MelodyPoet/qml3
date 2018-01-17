@@ -82,6 +82,7 @@ namespace starbucks.ui.basic
 
         public virtual void hide()
         {
+            if(view!=null)
             view.Hide();
         }
 

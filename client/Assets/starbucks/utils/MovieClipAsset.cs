@@ -6,5 +6,6 @@ namespace starbucks.utils
     public class MovieClipAsset : ScriptableObject
     {
         public Sprite[] sprites;
+        public Vector3 offsetPos;
     }
 }

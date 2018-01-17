@@ -14,10 +14,8 @@
 			<name type="string" />
 		</RoleCreate>
  
-	<!-- 选择角色登陆游戏 -->
-		<StartGame>
-
-</StartGame>
+	 
+ 
  
 
  </Requester>
@@ -27,25 +25,18 @@
             	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!-- 服务端返回 -->
 	<Responder>
-        <Relogin>
-		 
-		</Relogin>
+ 
 <!-- 登陆结果-->
 		<Login>
-		<accountID type = "long"/>
+		<hasRole type = "bool"/>
 			<errorID type="byte" />
 			<serverTime type="int" />
    <tempClientID type="byte"/>
 		</Login>
 <!-- 角色信息-->
 		<PassportRoleUpdate>
-		    <baseID type="byte" />
 			<level type="int" />
-      <equipItem type="PropPVo[]" />
-      
-			<zdl type="int" />
 			<name type="string" />
-	 
 		</PassportRoleUpdate>
  
 </Responder>

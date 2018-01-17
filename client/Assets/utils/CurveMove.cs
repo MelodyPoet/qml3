@@ -19,7 +19,7 @@ public class CurveMove : MonoBehaviour,ICommand
 	// Use this for initialization
 	void Start ()
 	{
-	  
+		initPos = transform.position;
 
 	}
 	

@@ -1,5 +1,7 @@
 ﻿<enum>
  <!--账号-->
 <PASSPORT value="1" />
- 
+ <CityMainPage value="2" />
+ <Createrole value="3" />
+ <BattleMainPage value="4" />
 </enum>

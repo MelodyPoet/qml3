@@ -52,6 +52,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\code\modules\battleMainPage\BattleMainPageEvent.cs" />
+    <Compile Include="Assets\code\modules\battleMainPage\BattleMainPageModule.cs" />
+    <Compile Include="Assets\code\modules\battleMainPage\kits\BattleMonsterHeadKit.cs" />
+    <Compile Include="Assets\code\modules\battleMainPage\kits\BattleMyHeadKit.cs" />
+    <Compile Include="Assets\code\modules\battleMainPage\main\BattleMainPageLogic.cs" />
+    <Compile Include="Assets\code\modules\battleMainPage\main\BattleMainPageView.cs" />
+    <Compile Include="Assets\code\modules\battleMainPage\model\BattleMainPageModel.cs" />
+    <Compile Include="Assets\code\modules\battleMainPage\model\BattleMainPageService.cs" />
     <Compile Include="Assets\code\modules\cityMainPage\CityMainPageEvent.cs" />
     <Compile Include="Assets\code\modules\cityMainPage\CityMainPageModule.cs" />
     <Compile Include="Assets\code\modules\cityMainPage\kits\CityMyHeadKit.cs" />
@@ -74,6 +82,7 @@
     <Compile Include="Assets\code\modules\scene\main\GameScene.cs" />
     <Compile Include="Assets\code\modules\scene\model\SceneModel.cs" />
     <Compile Include="Assets\code\modules\scene\model\SceneService.cs" />
+    <Compile Include="Assets\code\modules\scene\roles\Monster.cs" />
     <Compile Include="Assets\code\modules\scene\roles\MyHero.cs" />
     <Compile Include="Assets\code\modules\scene\SceneEvent.cs" />
     <Compile Include="Assets\code\ModulesManager.cs" />
@@ -84,6 +93,7 @@
     <Compile Include="Assets\demo\roleact\DieCmd.cs" />
     <Compile Include="Assets\demo\roleact\HurtCmd.cs" />
     <Compile Include="Assets\demo\Test.cs" />
+    <Compile Include="Assets\main\BaseData.cs" />
     <Compile Include="Assets\main\Main.cs" />
     <Compile Include="Assets\protocol\HeartbeatRqst.cs" />
     <Compile Include="Assets\protocol\LoginRqst.cs" />
@@ -91,10 +101,12 @@
     <Compile Include="Assets\protocol\PassportRoleUpdateRspd.cs" />
     <Compile Include="Assets\protocol\PropPVo.cs" />
     <Compile Include="Assets\protocol\RegRspdClassCmd.cs" />
-    <Compile Include="Assets\protocol\ReloginRspd.cs" />
     <Compile Include="Assets\protocol\RoleCreateRqst.cs" />
+    <Compile Include="Assets\protocol\SceneEnterRqst.cs" />
+    <Compile Include="Assets\protocol\SceneEnterRspd.cs" />
+    <Compile Include="Assets\protocol\SceneFindMonsterRqst.cs" />
+    <Compile Include="Assets\protocol\SceneFindMonsterRspd.cs" />
     <Compile Include="Assets\protocol\ServerClientQuitRqst.cs" />
-    <Compile Include="Assets\protocol\StartGameRqst.cs" />
     <Compile Include="Assets\starbucks\basic\AssetBundleManager.cs" />
     <Compile Include="Assets\starbucks\basic\ByteArray.cs" />
     <Compile Include="Assets\starbucks\basic\EventDispatcher.cs" />

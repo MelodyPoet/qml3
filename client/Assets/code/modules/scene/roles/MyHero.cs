@@ -15,6 +15,8 @@ namespace modules.scene.roles
         private void Awake()
         {
             instance = this;
+            transform.localScale= Vector3.one*0.6f;
+
         }
 
         public void loadres()

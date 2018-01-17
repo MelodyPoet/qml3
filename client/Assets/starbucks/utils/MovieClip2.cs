@@ -52,9 +52,11 @@ namespace starbucks.utils
 			{
 				clipsMap[item.lab] = item;
 			}
-   
+			
+
 		}
 		void Start(){
+			transform.localPosition = spritesAsset.offsetPos;
 			if (string.IsNullOrEmpty (autoPlay) == false) {
 				Play (autoPlay);
 			}
@@ -153,9 +155,17 @@ namespace starbucks.utils
 
 			Sprite nextSprite = spritesAsset.sprites[currentClip.startFrame + index];
 		//	Debug.Log(nextSprite+"---"+ index);
-			if ( spriteRenderer.sprite == null ||spriteRenderer.sprite.texture!=nextSprite.texture|| spriteRenderer.sprite.rect.position != nextSprite.rect.position)
+			if (nextSprite == null)
 			{
-				spriteRenderer.sprite = nextSprite;
+				spriteRenderer.sprite = null;
+			}
+			else
+			{
+				if (spriteRenderer.sprite == null || spriteRenderer.sprite.texture != nextSprite.texture ||
+				    spriteRenderer.sprite.rect.position != nextSprite.rect.position)
+				{
+					spriteRenderer.sprite = nextSprite;
+				}
 			}
 			if (currentClip.updateCallItem != null)
 			{

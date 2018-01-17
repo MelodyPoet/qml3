@@ -11,18 +11,13 @@ public class Test : MonoBehaviour {
 	public Action onDie;
 	public Action onUpdateHp;
  	public MovieClip2 hero;
-	public MovieClip2 [] monsters;
- 	private int mstIndex = 0;
-	[HideInInspector]
+	 
+ 	 
 	public MovieClip2 currentMonster;
   	bool running=true;
 	public static Test instance;
 	List<ICommand> cmdList=new List<ICommand>();
-	public void swapWeapon(){
-		hero.transform.GetChild (0).gameObject.SetActive (!hero.transform.GetChild (0).gameObject.activeSelf);
-		hero.transform.GetChild (1).gameObject.SetActive (!hero.transform.GetChild (1).gameObject.activeSelf);
-
-	}
+ 
 	void Awake(){
 		instance = this;
 	}
@@ -38,39 +33,7 @@ public class Test : MonoBehaviour {
 		cmdList.Add (new AttackCmd (){ isHero = true });
 		cmdList.Add (new DieCmd(){isHero=false,point=76});
 
-
-
-		cmdList.Add (new AttackCmd (){ isHero = true });
-		cmdList.Add (new HurtCmd(){isHero=false,point=69});
-
-		cmdList.Add (new AttackCmd (){ isHero = false } );
-		cmdList.Add (new HurtCmd(){isHero=true,point=76} );
-		cmdList.Add (new AttackCmd (){ isHero = true });
-		cmdList.Add (new HurtCmd(){isHero=false,point=88});
-
-		cmdList.Add (new AttackCmd (){ isHero = false } );
-		cmdList.Add (new HurtCmd(){isHero=true,point=83} );
-		cmdList.Add (new AttackCmd (){ isHero = true });
-		cmdList.Add (new DieCmd(){isHero=false,point=57});
-
-
-
-
-		cmdList.Add (new AttackCmd (){ isHero = true });
-		cmdList.Add (new HurtCmd(){isHero=false,point=56});
-
-		cmdList.Add (new AttackCmd (){ isHero = false } );
-		cmdList.Add (new HurtCmd(){isHero=true,point=120} );
-		cmdList.Add (new AttackCmd (){ isHero = true });
-		cmdList.Add (new HurtCmd(){isHero=false,point=47});
-
-		cmdList.Add (new AttackCmd (){ isHero = false } );
-		cmdList.Add (new HurtCmd(){isHero=true,point=175} );
-		cmdList.Add (new AttackCmd (){ isHero = true });
-		cmdList.Add (new HurtCmd(){isHero=false,point=51});
-
-		cmdList.Add (new AttackCmd (){ isHero = false } );
-		cmdList.Add (new DieCmd(){isHero=true,point=224});
+ 
 
 
 
@@ -78,12 +41,12 @@ public class Test : MonoBehaviour {
  
 		//Application.targetFrameRate = 30;
 		//hero.Play("run");
-		currentMonster = monsters[mstIndex];
+		 
 	 
-		onUpdateHp ();
+		//onUpdateHp ();
 		running = false;
 		//changeWave.time = changeWave.duration / 2;
-		changeWave.Play ();
+		//changeWave.Play ();
 		StartCoroutine (fighting());
 	}
 //	void Update () {
@@ -100,8 +63,8 @@ public class Test : MonoBehaviour {
 //	}
 	IEnumerator fighting(){
 		yield return new WaitForSeconds (1f);
-		changeWave.Stop ();
-		currentMonster.gameObject.SetActive (true);
+	 
+	 
 		yield return new WaitForSeconds (0.7f);
 		while(cmdList.Count>0){
 			ICommand cmd=	cmdList [0];
@@ -125,14 +88,7 @@ public class Test : MonoBehaviour {
 				if(onDie!=null)
 				onDie ();
 				
-				if (mstIndex == monsters.Length - 1)
-					break;
-				running = true;
-				//hero.Play("run");
-				changeWave.Play();
-				currentMonster = monsters[++mstIndex];
-				//yield return new WaitForSeconds (1);
-				StartCoroutine (fighting());
+		 
 				break;
 
 			}

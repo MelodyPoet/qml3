@@ -1,0 +1,38 @@
+<!--基础模块-->
+<Module id="1">
+<!-- 客户端发送 -->
+	<Requester>
+       <!-- 进入场景 -->
+		<SceneEnter>
+			<sceneID type="int" />
+		</SceneEnter>
+         <!-- 请求一个怪物 -->
+		<SceneFindMonster>
+			 
+		</SceneFindMonster>
+
+ </Requester>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+            	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- 服务端返回 -->
+	<Responder>
+              <!-- 进入场景 -->
+		<SceneEnter>
+			<sceneID type="int" />
+		</SceneEnter>
+          <!-- 请求一个怪物 -->
+		<SceneFindMonster>
+			 <npcLayoutIndex type="int" />
+		</SceneFindMonster>
+</Responder>
+
+
+	<!-- 协议数据结构 -->
+	<PVO>
+ 
+	 
+	</PVO>
+</Module>
+ 

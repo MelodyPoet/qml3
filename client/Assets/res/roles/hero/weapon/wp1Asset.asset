@@ -105,3 +105,4 @@ MonoBehaviour:
   - {fileID: 21300176, guid: 9f2f3b736b1d647e08e5898787ca15c9, type: 3}
   - {fileID: 21300178, guid: 9f2f3b736b1d647e08e5898787ca15c9, type: 3}
   - {fileID: 21300180, guid: 9f2f3b736b1d647e08e5898787ca15c9, type: 3}
+  offsetPos: {x: -0.14, y: 0, z: 0}

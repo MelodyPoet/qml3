@@ -32,10 +32,10 @@ namespace  modules.passport.login
             base.onInitView(view);
             
 		//view call logic
-      view.RequestLoginClk = () =>
+      view.RequestLoginClk = (guid) =>
       {
-  
-          UdpService.instance.connect(123456,"127.0.0.1",9091);
+           
+          UdpService.instance.connect(guid,"127.0.0.1",9091);
          
           dispatcher.AddEventListener(LoginRspd.PRO_ID,onLoginRspd);
 
@@ -50,8 +50,8 @@ namespace  modules.passport.login
         private void onLoginRspd(EventData obj)
         {
                      new HideViewCmd(ModuleEnum.PASSPORT).excute(); 
-                       GameScene.instance.loadScene();
-                       new ShowViewCmd(ModuleEnum.CityMainPage).excute();
+                      // GameScene.instance.loadScene();
+                      // new ShowViewCmd(ModuleEnum.CityMainPage).excute();
             if (model.hasRole == false)
             {
                 new ShowViewCmd(ModuleEnum.Createrole).excute();

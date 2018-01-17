@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 114007011079211662}
   - component: {fileID: 114249126592861214}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: btnMap3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 114783199678018814}
   - component: {fileID: 114779432658291238}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: btnMap2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 114305818031353954}
   - component: {fileID: 114496220606034606}
   m_Layer: 5
-  m_Name: Button
+  m_Name: btnMap1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -328,7 +328,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: a0cd54c87ac54d846ac7304ab6463182, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f65c84cffe5ae2c4ca0e00ecf6f1a585, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -389,7 +389,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 0
     m_HorizontalOverflow: 0
@@ -431,7 +431,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 4700aed5a71397c458809192477391a0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 43ec1c0e6c8cbc14c97e8edc6a2321ca, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -515,7 +515,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 82d9ed683cb82af439ad7fe476164084, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d2e0f523f23f49645a4fbef15bffcf4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -848,8 +848,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 199.1, y: -52.2}
-  m_SizeDelta: {x: 176, y: 18}
+  m_AnchoredPosition: {x: 220.2, y: -40.7}
+  m_SizeDelta: {x: 266, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224139768507864426
 RectTransform:
@@ -885,7 +885,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 196.22, y: -85.3}
+  m_AnchoredPosition: {x: 212, y: -87.9}
   m_SizeDelta: {x: 192.75, y: 41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224402991875741594
@@ -980,8 +980,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 151, y: -63.5}
-  m_SizeDelta: {x: 302, y: 127}
+  m_AnchoredPosition: {x: 191.7, y: -58.1}
+  m_SizeDelta: {x: 368, y: 97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224688016484401268
 RectTransform:
@@ -1016,8 +1016,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 70, y: -42.3}
-  m_SizeDelta: {x: 140, y: 138}
+  m_AnchoredPosition: {x: 56.1, y: -58.4}
+  m_SizeDelta: {x: 73, y: 73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224973785479284586
 RectTransform:

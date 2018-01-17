@@ -17,6 +17,8 @@ public class Main : MonoBehaviour {
 		gameObject.AddComponent<GlobalCoroutine>();
 		CoreLibCallBack.isReourcesLoadMode = true;
 		CoreLibCallBack.localResPath = "c:/m1_res";
+
+		yield return GlobalCoroutine.instance.StartCoroutine(BaseData.init());
 		AssetBundle assetBundle = AssetBundleManager.loadSimple("gameroot.abd");
  
          GameObject gameroot=	Instantiate(assetBundle.LoadAsset<GameObject>("gameroot"));

@@ -6,6 +6,7 @@ import gluffy.comm.BaseRqst;
 import protocol.LoginRqst;
 import protocol.LoginRspd;
 import protocol.PassportRoleUpdateRspd;
+import protocol.SceneEnterRspd;
 import qmshared.RedisClient;
 import redis.clients.jedis.Jedis;
 
@@ -22,7 +23,7 @@ public class LoginCmd extends BaseRqstCmd {
 		boolean hasRole=false;
 		if(jedis.exists("passport:level:"+client.guid)){
 			System.out.println("old client" +jedis.get("passport:level:"+client.guid));
-			new PassportRoleUpdateRspd(client,(byte)1,Integer.parseInt( jedis.get("passport:level:"+client.guid)),null,0,jedis.get("passport:uname:"+client.guid));
+			new PassportRoleUpdateRspd(client,Integer.parseInt( jedis.get("passport:level:"+client.guid)),jedis.get("passport:uname:"+client.guid));
 			hasRole=true;
 		}else{
 			System.out.println("new client");
@@ -32,8 +33,9 @@ public class LoginCmd extends BaseRqstCmd {
 
 		client.passportLogined=true;
 
-		new LoginRspd(client,hasRole?1:0,(byte)0,0,(byte)0);
+		new LoginRspd(client,hasRole,(byte)0,0,(byte)0);
 
+		new SceneEnterRspd(client,1);
 
 	}
 

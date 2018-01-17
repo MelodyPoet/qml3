@@ -7,9 +7,9 @@ tpsheetFileNames:
 - Assets/res/roles/hero/sprites/tp_hero1.tpsheet
 - Assets/res/roles/hero/weapon/sprites/tp_weapon1.tpsheet
 - Assets/res/roles/hero/weapon/sprites/tp_weapon2.tpsheet
-- Assets/res/roles/monster/lvduwa/sprites/tp_wa.tpsheet
-- Assets/res/roles/monster/tp_hongwa.tpsheet
-- Assets/res/roles/monster/tp_waboss.tpsheet
+- Assets/res/roles/monster/duwaboss/tp_waboss.tpsheet
+- Assets/res/roles/monster/hongduwa/tp_hongwa.tpsheet
+- Assets/res/roles/monster/lvduwa/tp_wa.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/res/effect/tp_effect1.png
@@ -17,9 +17,9 @@ textureFileNames:
 - Assets/res/roles/hero/sprites/tp_hero1.png
 - Assets/res/roles/hero/weapon/sprites/tp_weapon1.png
 - Assets/res/roles/hero/weapon/sprites/tp_weapon2.png
-- Assets/res/roles/monster/lvduwa/sprites/tp_wa.png
-- Assets/res/roles/monster/tp_hongwa.png
-- Assets/res/roles/monster/tp_waboss.png
+- Assets/res/roles/monster/duwaboss/tp_waboss.png
+- Assets/res/roles/monster/hongduwa/tp_hongwa.png
+- Assets/res/roles/monster/lvduwa/tp_wa.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
 - 

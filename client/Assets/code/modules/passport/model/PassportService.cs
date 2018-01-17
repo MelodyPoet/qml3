@@ -20,7 +20,7 @@ namespace modules.passport.model
         private void onLoginRspd(EventData eventData)
         {
            LoginRspd rspd= eventData.objVal as LoginRspd;
-            model.hasRole = rspd.accountID>0;
+            model.hasRole = rspd.hasRole;
         }
         private void onPassportRoleUpdateRspd(EventData eventData)
         {
