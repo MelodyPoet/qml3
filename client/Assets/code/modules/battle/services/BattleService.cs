@@ -12,7 +12,7 @@ using starbucks.ui.basic;
     
         private BattleModel model
         {
-            get { return _baseModel as BattleModel; }
+            get { return ModulesManager.battle.model; }
         }
         
         public override void init()

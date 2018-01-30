@@ -9,7 +9,7 @@ using starbucks.ui.basic;
     {
         private SceneModel model
         {
-            get { return _baseModel as SceneModel; }
+            get { return ModulesManager.scene.model; }
         }
          public override void init()
         {

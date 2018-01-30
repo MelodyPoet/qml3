@@ -13,7 +13,7 @@ namespace modules.cityMainPage
         {
            base.init();
             model=new CityModel();
-            RegService<CityService>(model);
+            RegService<CityService>();
             
           RegPanel<CityPanel>(ModuleEnum.CityMainPage,"cityMainPageView","citymainpage","comm");
  

@@ -36,10 +36,9 @@ namespace starbucks.ui.basic
         {
 
         }
-        protected TService RegService<TService>(object model) where TService:BaseService, new() 
+        protected TService RegService<TService>() where TService:BaseService, new() 
         {
             TService s =   new TService();
-            s._baseModel = model;
             s.init();
             return s;
         }

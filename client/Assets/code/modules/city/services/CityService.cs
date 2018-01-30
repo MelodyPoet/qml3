@@ -11,7 +11,7 @@ using starbucks.ui.basic;
     {
       private CityModel model
         {
-            get { return _baseModel as CityModel; }
+            get { return ModulesManager.city.model; }
         }
         
         public override void init()

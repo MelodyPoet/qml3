@@ -6,7 +6,7 @@ namespace starbucks.ui.basic
     {
         public EventDispatcher dispatcher =  EventDispatcher.globalDispatcher;
 
-        internal object _baseModel;
+      
 
    
      /*   public   BaseService(object baseModel)

@@ -12,7 +12,7 @@ namespace modules.battleMainPage
         {
            base.init();
             model=new BattleModel();
-            RegService<BattleService>(model);
+            RegService<BattleService>();
            RegPanel<BattlePanel>(ModuleEnum.BattleMainPage,"battleMainPageView","battlemainpage","comm","citymainpage");
  
            

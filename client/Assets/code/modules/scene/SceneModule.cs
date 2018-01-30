@@ -10,7 +10,7 @@ namespace modules.scene
         public override void init()
         {
             model=new SceneModel();
-            RegService<SceneService>(model);
+            RegService<SceneService>();
             base.init();
             
         }

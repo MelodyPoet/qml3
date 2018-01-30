@@ -10,7 +10,7 @@ namespace modules.passport.services
     {
         private PassportModel model
         {
-            get { return _baseModel as PassportModel; }
+            get { return ModulesManager.passport.model; }
         }
  
 

@@ -13,7 +13,7 @@ namespace modules.passport
            base.init();
             model=new PassportModel();
           
-           service= RegService<PassportService>(model);
+           service= RegService<PassportService>();
           RegPanel<PassportPanel>(ModuleEnum.PASSPORT,"passportMainView","passport","comm");          
         }
 
