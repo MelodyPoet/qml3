@@ -1,4 +1,5 @@
 ﻿using starbucks.basic;
+using UnityEngine;
 
 namespace starbucks.ui
 {
@@ -9,6 +10,7 @@ namespace starbucks.ui
 
         public ShowViewCmd(int moduleID,string tabName=null)
         {
+            Debug.LogError(moduleID+":");
             this.moduleID = moduleID;
             this.tabName = tabName;
         }

@@ -14,8 +14,8 @@ using starbucks.ui.basic;
          public override void init()
         {
             base.init();
-            dispatcher.AddEventListener(SceneEnterRspd.PRO_ID,onSceneEnterRspd);
-            dispatcher.AddEventListener(SceneFindMonsterRspd.PRO_ID,onSceneFindMonsterRspd);
+            dispatcher.AddEventListener(SceneEnterRspd.PRO_ID,onSceneEnterRspd,true);
+            dispatcher.AddEventListener(SceneFindMonsterRspd.PRO_ID,onSceneFindMonsterRspd,true);
         }
 
         private void onSceneFindMonsterRspd(EventData eventData)
