@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -80,11 +81,27 @@ public class UIEventListener:EventTrigger
 			onInputFieldChanged(gameObject, gameObject.GetComponent<InputField>().text);
 	}
 
+	public static UIEventListener Get(Component component)
+	{
+		return Get(component.gameObject);
+	}
+
 	public static UIEventListener Get(GameObject go)
 	{
 		UIEventListener listener =go.GetComponent<UIEventListener>();
 		if(listener==null) listener=go.AddComponent<UIEventListener>();
 		return listener;
+	}
+	
+	public static void bindVoidClickAction(Component component, Action requestSit)
+	{
+		Get(component.gameObject).onClick = (go2) => { requestSit(); };
+
+	}
+	public static void bindVoidClickAction(GameObject go, Action requestSit)
+	{
+		Get(go).onClick = (go2) => { requestSit(); };
+
 	}
 }
 }

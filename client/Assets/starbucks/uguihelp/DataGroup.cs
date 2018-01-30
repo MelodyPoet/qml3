@@ -10,7 +10,7 @@ namespace starbucks.uguihelp
         public IList array;
         public BaseItemRender[] views;
         private Type itemType;
-        public DataGroup init(IList array = null, Type itemType = null, IList itemAry = null,Action<BaseItemRender,object> selectAction=null, Action<BaseItemRender, object> renderAction=null)
+        public DataGroup init(IList array = null, Type itemType = null, IList itemAry = null,Action<BaseItemRender,object> selectAction=null, Action<BaseItemRender, object> renderAction=null,BaseItemRender.ClickModeEnum clickMode=BaseItemRender.ClickModeEnum.NONE)
         {
             this.array = array;
             this.itemType = itemType;
@@ -26,6 +26,7 @@ namespace starbucks.uguihelp
                     views[i].index = i;
                     views[i].selectAction = selectAction;
                     views[i].renderAction = renderAction;
+                    views[i].clickMode = clickMode;
                 }
             }
             else
@@ -36,6 +37,7 @@ namespace starbucks.uguihelp
                     views[i].index = i;
                     views[i].selectAction = selectAction;
                     views[i].renderAction = renderAction;
+                    views[i].clickMode = clickMode;
                 }
 
             }
@@ -48,12 +50,14 @@ namespace starbucks.uguihelp
                     views[i].index = i;
                     views[i].selectAction = selectAction;
                     views[i].renderAction = renderAction;
+                    views[i].clickMode = clickMode;
                 }
             }
    
          
-
+            flushData();
             return this;
+            
         }
     
         public void addClassInChild()//为了不限子类数量添加脚本
@@ -65,7 +69,7 @@ namespace starbucks.uguihelp
                 if (views[i] == null)
                     views[i] = transform.GetChild(i).gameObject.AddComponent(itemType) as BaseItemRender;
                 views[i].index = i;
-            }
+             }
         }
 
         public void upateInIndex(int index)

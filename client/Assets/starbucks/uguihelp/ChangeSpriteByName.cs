@@ -26,7 +26,7 @@ namespace starbucks.uguihelp
             foreach (var item in assetsNames)
             {
           
-                Sprite sp=     AssetBundleManager.getSprite (item, spriteName);
+                Sprite sp=     AssetBundleManager.getSprite ("ui/"+item+".abd", spriteName);
                 if (sp != null) {
                     img.sprite = sp;
                     return sp;

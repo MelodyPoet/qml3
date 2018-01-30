@@ -1,4 +1,5 @@
 ﻿using System;
+using starbucks.utils;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -24,6 +25,8 @@ namespace starbucks.uguihelp
             lab = GetComponent<Text>();
             if (hideLabWendEnd)
                 lab.gameObject.SetActive(false);
+            
+            TestForEditor.createTestCheck(this, () => {startCD(5,false); });
         }
 
         public void init(int max)

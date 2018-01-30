@@ -4,31 +4,32 @@ namespace starbucks.ui.basic
 {
     public class BaseView : UIComponent
     {
-       public bool isDefaultHidden;
-        public override void Awake()
-        {
-            base.Awake();
-            if (isDefaultHidden) Init();
-        }
+         public UIEventDispatcher dispatcher = UIEventDispatcher.globalUIDispatcher;
+        protected GlobalCoroutine glbCoroutine = GlobalCoroutine.instance;
+        internal BaseModule _baseModule;
+        internal BasePanel _basePanel;
 
-        public virtual void Init()
+        protected  virtual void OnDestroy()
         {
+            dispatcher.RemoveAllEventListeners(this);
         }
-
+    }
+    public class BaseView<TModule,TPanel> : BaseView where TModule:BaseModule  where TPanel: BasePanel
+    {
     
-        public virtual void Show(params object[] args)
+         
+
+        protected TModule module
         {
-             SetActive(true);
-            
+            get { return (TModule)_baseModule ; }
         }
-        public virtual void Hide()
+        protected TPanel panel
         {
-            SetActive(false);
-
+            get { return (TPanel) _basePanel; }
         }
-
-
+        
 
     }
+
 
 }

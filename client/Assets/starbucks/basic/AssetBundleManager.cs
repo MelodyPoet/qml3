@@ -94,7 +94,7 @@ namespace starbucks.basic
 				{
 					abc.assetBundle.Unload(true);
 					allitems.Remove(resName);
-					Debug.Log("unload:"+resName);
+					//Debug.Log("unload:"+resName);
 				}
 			}
 			usingItems.Clear();

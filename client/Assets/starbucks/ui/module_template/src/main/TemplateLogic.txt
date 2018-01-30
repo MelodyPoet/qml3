@@ -14,7 +14,7 @@ namespace  modules.{-1}.{1}
         private {0}Model model = {0}Model.instance;
        
 
-        public {2}Logic():base(ModuleEnum.{2},"{2}MainView","{2}","comm")
+        public {2}Logic():base(ModuleEnum.{2},"{2}Module","{2}","comm")
         {
        
 

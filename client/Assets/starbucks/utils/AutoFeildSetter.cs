@@ -5,29 +5,18 @@ namespace starbucks.utils
 {
 	public class AutoFeildSetter : MonoBehaviour
 	{
-		public Component[] items;
+		public Object[] items;
 		// Use this for initialization
-		void Awake () {
-			MonoBehaviour cantainer  =GetComponent<MonoBehaviour>();
+	public	void apply (MonoBehaviour cantainer) {
+			 
 
-			foreach (Component item in items)
+			foreach (Object item in items)
 			{
 				FieldInfo fi = cantainer.GetType().GetField(item.name);
 	      
-				Debug.LogError("-----------Utils---------------setUiItemWithSameName-----------item----------------" + item.name);
-				if (fi.FieldType == typeof(GameObject))
-				{
-					fi.SetValue(cantainer, item.gameObject);
-				}
-				else if (fi.FieldType == typeof(Transform))
-				{
+			 
 					fi.SetValue(cantainer, item);
-
-				}
-				else
-				{
-					fi.SetValue(cantainer, item);
-				}
+ 
 			}
 
 		}
@@ -36,7 +25,7 @@ namespace starbucks.utils
 		{
        
 			string msg = "";
-			foreach (Component item in items)
+			foreach (Object item in items)
 			{
 				msg += "public " + item.GetType().Name + " " + item.name + ";\n";
 			}

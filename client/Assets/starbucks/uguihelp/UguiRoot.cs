@@ -34,6 +34,14 @@ namespace starbucks.uguihelp
             rectTf.offsetMin = Vector2.zero;
             rectTf.localScale = Vector3.one;
         }
+        public static void resetMatix(RectTransform rectTf,RectTransform assetTf)
+        {
+            rectTf.anchorMin = assetTf.anchorMin;
+            rectTf.anchorMax = assetTf.anchorMax;
+            rectTf.offsetMax = assetTf.offsetMax;// = new Rect(0, 0, Screen.width, Screen.height);// Vector2.zero ;
+            rectTf.offsetMin = assetTf.offsetMin;
+            rectTf.localScale = assetTf.localScale;
+        }
     }
 
 }

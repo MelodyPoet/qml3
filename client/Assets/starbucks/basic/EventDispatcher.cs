@@ -2,14 +2,18 @@
 
 using System;
 using System.Collections.Generic;
+using starbucks.ui.basic;
 
 namespace starbucks.basic
 {
     public class EventDispatcher
     {
         public static EventDispatcher globalDispatcher = new EventDispatcher();
+        public EventDispatcher transmitDispatcher = null;
         Dictionary<string, Action<EventData>> HandlerMap = new Dictionary<string, Action<EventData>>();
         Dictionary<Action<EventData>, string> OnceHandlerMap = new Dictionary<Action<EventData>, string>();
+        protected bool fromTransmitParent=false;
+
         public virtual void AddEventListener(string eventType, Action<EventData> action, bool callFirst = false)
         {
             if (HandlerMap.ContainsKey(eventType))
@@ -53,9 +57,14 @@ namespace starbucks.basic
             {
                 Action<EventData> handler = HandlerMap[eventType];
                 handler -= action;
+                
                 if (handler == null)
                 {
                     HandlerMap.Remove(eventType);
+                }
+                else
+                {
+                    HandlerMap[eventType] = handler;
                 }
             }
         }
@@ -116,11 +125,19 @@ namespace starbucks.basic
                     }
                     handler(e);
 
+
                 }
+            }
+            if (transmitDispatcher != null)
+            {
+                transmitDispatcher.fromTransmitParent = true;
+                transmitDispatcher.DispatchEvent(e);
+                transmitDispatcher.fromTransmitParent = false;
             }
             return e;
 
         }
+
 
  
     }
