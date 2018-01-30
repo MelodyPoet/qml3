@@ -3,7 +3,6 @@ package connect_to_clients;
 import comm.Client;
 import comm.Model;
 import comm.QuickProtocal;
-import comm.Utils;
 import mlt_server_protocol.ServerTipRspd;
 
 import java.io.IOException;
@@ -255,11 +254,11 @@ private  static void sendImportantToClient (byte [] bytes,Client client,boolean 
 
                 Client client = Client.getOne(currentProtocal.guid);
                 if (client == null) {
-                    if(currentProtocal.proID!=2)//loginrqst.pid
-                    {
-                        new ServerTipRspd(socketAddress,(short) 994,null);
-                        continue;
-                    }
+//                    if(currentProtocal.proID!=2)//loginrqst.pid
+//                    {
+//                        new ServerTipRspd(socketAddress,(short) 994,null);
+//                        continue;
+//                    }
                     client = new Client();
                     client.guid = currentProtocal.guid;
                      Client.setOne(currentProtocal.guid, client);

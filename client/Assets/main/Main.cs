@@ -16,7 +16,14 @@ public class Main : MonoBehaviour {
 	{
 		gameObject.AddComponent<GlobalCoroutine>();
 		CoreLibCallBack.isReourcesLoadMode = true;
-		CoreLibCallBack.localResPath = "c:/m1_res";
+ 
+		if (UnityEngine.Application.platform == UnityEngine.RuntimePlatform.OSXEditor) {
+			CoreLibCallBack.localResPath = "/Users/jackie/Desktop/m1_res";
+		} else {
+			CoreLibCallBack.localResPath = "C:/m1_res";
+		}
+
+		CoreLibCallBack.localResPath = Application.streamingAssetsPath;
 
 		yield return GlobalCoroutine.instance.StartCoroutine(BaseData.init());
 		AssetBundle assetBundle = AssetBundleManager.loadSimple("gameroot.abd");

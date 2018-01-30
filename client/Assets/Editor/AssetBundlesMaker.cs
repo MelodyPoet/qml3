@@ -82,6 +82,8 @@ public class AssetBundlesMaker : EditorWindow {
 				} else {
 						desurl = "C:/m1_res";
 				}
+
+			desurl = Application.streamingAssetsPath;
 				BuildPipeline.BuildAssetBundles (desurl,BuildAssetBundleOptions.None,EditorUserBuildSettings.activeBuildTarget);
 	 
 

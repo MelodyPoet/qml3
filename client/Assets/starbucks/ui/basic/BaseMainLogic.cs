@@ -69,6 +69,14 @@ namespace starbucks.ui.basic
         public override void hide()
         {
             base.hide();
+
+            destroy();
+        }
+
+        public void destroy()
+        {
+            if(view!=null)
+            GameObject.Destroy(view.gameObject);
             unloadRes();
         }
 
@@ -77,8 +85,11 @@ namespace starbucks.ui.basic
     
             yield return  glbCoroutine.StartCoroutine(loadRes());
             mainAssetBundle = AssetBundleManager.getOne("ui/"+moduleRes+".abd");
-            onLoadCmpCall(mainAssetBundle.LoadAsset<GameObject>(prefabName));
-  
+            if (view == null)
+            {
+                onLoadCmpCall(mainAssetBundle.LoadAsset<GameObject>(prefabName));
+            }
+
             onLoad();
         }
         void onLoadCmpCall(GameObject asset)

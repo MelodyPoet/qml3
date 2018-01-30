@@ -17,7 +17,7 @@ public class SceneEnterCmd extends BaseRqstCmd {
 		SceneEnterRqst rqst= (SceneEnterRqst) baseRqst;
 client.rtPassport.setFieldInt(RedisTablePassport.mapID,rqst.sceneID);
 
-	 client.rtFightMap.setField(RedisTableFightMap.fightGroupIndex,"0",
+	 client.rtFightMap.setField(RedisTableFightMap.layoutIndex,"0",
 			 RedisTableFightMap.fightGroupIndex,"0");
 
 	new SceneEnterRspd(client,rqst.sceneID);

@@ -10,6 +10,7 @@ tpsheetFileNames:
 - Assets/res/roles/monster/duwaboss/tp_waboss.tpsheet
 - Assets/res/roles/monster/hongduwa/tp_hongwa.tpsheet
 - Assets/res/roles/monster/lvduwa/tp_wa.tpsheet
+- Assets/thirdPart/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/res/effect/tp_effect1.png
@@ -20,6 +21,7 @@ textureFileNames:
 - Assets/res/roles/monster/duwaboss/tp_waboss.png
 - Assets/res/roles/monster/hongduwa/tp_hongwa.png
 - Assets/res/roles/monster/lvduwa/tp_wa.png
+- Assets/thirdPart/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
 - 
@@ -30,4 +32,5 @@ normalmapFileNames:
 - 
 - 
 - 
+- Assets/thirdPart/codeandweb.com/Example/SpriteSheet/sprites_n.png
 enableDebugOutput: 0
