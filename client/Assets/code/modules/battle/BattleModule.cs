@@ -6,12 +6,13 @@ namespace modules.battleMainPage
 {
     public   class BattleModule : BaseModule
     {
-          private BattleModel model = BattleModel.instance;
+          public BattleModel model ;
  
         public override void init()
         {
            base.init();
-            model.service=new BattleService();
+            model=new BattleModel();
+            RegService<BattleService>(model);
            RegPanel<BattlePanel>(ModuleEnum.BattleMainPage,"battleMainPageView","battlemainpage","comm","citymainpage");
  
            

@@ -7,6 +7,7 @@ namespace starbucks.ui.basic
          public UIEventDispatcher dispatcher = UIEventDispatcher.globalUIDispatcher;
         protected GlobalCoroutine glbCoroutine = GlobalCoroutine.instance;
         internal BaseModule _baseModule;
+        internal object _baseModel;
         internal BasePanel _basePanel;
 
         protected  virtual void OnDestroy()
@@ -27,7 +28,7 @@ namespace starbucks.ui.basic
         {
             get { return (TPanel) _basePanel; }
         }
-        
+
 
     }
 

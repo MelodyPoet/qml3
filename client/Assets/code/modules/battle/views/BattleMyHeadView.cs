@@ -1,7 +1,5 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using modules.battleMainPage.model;
-using modules.passport.model;
+ 
 using starbucks.ui.basic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,7 +19,7 @@ namespace modules.battleMainPage.views
 
         private void updateName()
         {
-            transform.Find("txtName").GetComponent<Text>().text = PassportModel.instance.roleName;
+            transform.Find("txtName").GetComponent<Text>().text = ModulesManager.passport.model.roleName;
         }
     }
 }

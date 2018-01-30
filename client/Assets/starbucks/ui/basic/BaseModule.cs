@@ -36,6 +36,13 @@ namespace starbucks.ui.basic
         {
 
         }
+        protected TService RegService<TService>(object model) where TService:BaseService, new() 
+        {
+            TService s =   new TService();
+            s._baseModel = model;
+            s.init();
+            return s;
+        }
         protected void RegPanel <TPanle>(sbyte moduleID,string prefabName,string moduleRes,params  string [] refRes) where TPanle: BasePanel
         {
             Debug.Log("RegPanel");

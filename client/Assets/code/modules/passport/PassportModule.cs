@@ -1,23 +1,23 @@
  
-using modules.passport.model;
+ using modules.passport.services;
 using modules.passport.views;
 using starbucks.ui.basic;
 namespace modules.passport
 {
     public   class PassportModule : BaseModule
     {
-          public PassportModel model = PassportModel.instance;
- 
+        public PassportModel model { get; private set; }
+        public PassportService service { get; private set; }
         public override void init()
         {
            base.init();
-            model.service=new PassportService();
+            model=new PassportModel();
+          
+           service= RegService<PassportService>(model);
           RegPanel<PassportPanel>(ModuleEnum.PASSPORT,"passportMainView","passport","comm");          
         }
 
-
- 
-
+   
     }
 
 }

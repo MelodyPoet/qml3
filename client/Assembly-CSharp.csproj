@@ -53,17 +53,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\code\modules\battle\BattleEvent.cs" />
+    <Compile Include="Assets\code\modules\battle\BattleModel.cs" />
     <Compile Include="Assets\code\modules\battle\BattleModule.cs" />
-    <Compile Include="Assets\code\modules\battle\model\BattleModel.cs" />
-    <Compile Include="Assets\code\modules\battle\model\BattleService.cs" />
+    <Compile Include="Assets\code\modules\battle\services\BattleService.cs" />
     <Compile Include="Assets\code\modules\battle\views\BattleMonsterHeadView.cs" />
     <Compile Include="Assets\code\modules\battle\views\BattleMyHeadView.cs" />
     <Compile Include="Assets\code\modules\battle\views\BattlePanel.cs" />
     <Compile Include="Assets\code\modules\battle\views\BattleView.cs" />
     <Compile Include="Assets\code\modules\city\CityEvent.cs" />
+    <Compile Include="Assets\code\modules\city\CityModel.cs" />
     <Compile Include="Assets\code\modules\city\CityModule.cs" />
-    <Compile Include="Assets\code\modules\city\model\CityModel.cs" />
-    <Compile Include="Assets\code\modules\city\model\CityService.cs" />
+    <Compile Include="Assets\code\modules\city\services\CityService.cs" />
     <Compile Include="Assets\code\modules\city\views\CityMyHeadView.cs" />
     <Compile Include="Assets\code\modules\city\views\CityPanel.cs" />
     <Compile Include="Assets\code\modules\city\views\CityView.cs" />
@@ -71,19 +71,20 @@
     <Compile Include="Assets\code\modules\createrole\CreateroleModule.cs" />
     <Compile Include="Assets\code\modules\createrole\views\CreaterolePanel.cs" />
     <Compile Include="Assets\code\modules\createrole\views\CreateroleView.cs" />
-    <Compile Include="Assets\code\modules\passport\models\PassportModel.cs" />
-    <Compile Include="Assets\code\modules\passport\models\PassportService.cs" />
     <Compile Include="Assets\code\modules\passport\PassportEvent.cs" />
+    <Compile Include="Assets\code\modules\passport\PassportModel.cs" />
     <Compile Include="Assets\code\modules\passport\PassportModule.cs" />
+    <Compile Include="Assets\code\modules\passport\services\PassportService.cs" />
     <Compile Include="Assets\code\modules\passport\views\LoginView.cs" />
     <Compile Include="Assets\code\modules\passport\views\PassportPanel.cs" />
     <Compile Include="Assets\code\modules\passport\views\PassportView.cs" />
     <Compile Include="Assets\code\modules\scene\main\GameScene.cs" />
-    <Compile Include="Assets\code\modules\scene\model\SceneModel.cs" />
-    <Compile Include="Assets\code\modules\scene\model\SceneService.cs" />
     <Compile Include="Assets\code\modules\scene\roles\Monster.cs" />
     <Compile Include="Assets\code\modules\scene\roles\MyHero.cs" />
     <Compile Include="Assets\code\modules\scene\SceneEvent.cs" />
+    <Compile Include="Assets\code\modules\scene\SceneModel.cs" />
+    <Compile Include="Assets\code\modules\scene\SceneModule.cs" />
+    <Compile Include="Assets\code\modules\scene\services\SceneService.cs" />
     <Compile Include="Assets\code\ModulesManager.cs" />
     <Compile Include="Assets\code\shared\PaneNavigator.cs" />
     <Compile Include="Assets\demo\BgLayerMoveScale.cs" />

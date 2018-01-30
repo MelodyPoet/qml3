@@ -1,13 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
- namespace modules.scene.model
+ namespace modules.scene
 {
     public class SceneModel
     {
-        public static SceneModel instance = new SceneModel();
-		 public SceneService service;
-        public MapBaseVo currentMap;
+         public MapBaseVo currentMap;
         public NpcLayoutBaseVo currentNpcLayout;
     }
 }

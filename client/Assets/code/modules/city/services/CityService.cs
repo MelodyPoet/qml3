@@ -1,15 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+ using modules.city;
 using starbucks.basic;
 using starbucks.ui;
 using UnityEngine;
 using starbucks.ui.basic;
- namespace modules.cityMainPage.model
+ namespace modules.cityMainPage.services
 {
     public class CityService:BaseService
     {
-  
-		 private CityModel model =CityModel.instance;
+      private CityModel model
+        {
+            get { return _baseModel as CityModel; }
+        }
+        
         public override void init()
         {
             base.init();

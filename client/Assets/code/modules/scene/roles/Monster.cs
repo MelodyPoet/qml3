@@ -1,6 +1,5 @@
 ﻿using System;
-using modules.scene.model;
-using starbucks.basic;
+ using starbucks.basic;
 using starbucks.utils;
 using UnityEngine;
 
@@ -9,7 +8,10 @@ namespace modules.scene.roles
     public class Monster : MonoBehaviour
     {
       
- 
+        private SceneModel model
+        {
+            get { return ModulesManager.scene.model; }
+        }
 
         public void loadres(Action onLoad=null)
         {
@@ -17,7 +19,7 @@ namespace modules.scene.roles
            GlobalCoroutine.instance.StartCoroutine( AssetBundleManager.load("npc/monster.abd",null, (ab) =>
            {
                GlobalCoroutine.instance.StartCoroutine(AssetBundleManager.load(
-                   "npc/" + BaseData.NpcBaseMap[SceneModel.instance.currentNpcLayout.npcID].image + ".abd",null,
+                   "npc/" + BaseData.NpcBaseMap[model.currentNpcLayout.npcID].image + ".abd",null,
                    (ab2) =>
                    {
                        GameObject res= Instantiate( ab.LoadAsset<GameObject>("monster"));

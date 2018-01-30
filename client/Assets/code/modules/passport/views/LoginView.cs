@@ -4,8 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
  
 using System;
-using modules.passport.model;
-using starbucks.basic;
+ using starbucks.basic;
 using starbucks.socket.udp;
 using starbucks.uguihelp;
 using starbucks.ui;
@@ -16,7 +15,10 @@ namespace  modules.passport.views
 {
     public class LoginView: BaseView<PassportModule,PassportPanel>
     {
-        public PassportModel model = PassportModel.instance;
+        private PassportModel model
+        {
+            get { return module.model; }
+        }
 
         public override void Awake()
         {

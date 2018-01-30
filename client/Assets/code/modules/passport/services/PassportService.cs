@@ -4,13 +4,19 @@ using UnityEngine;
 using starbucks.basic;
 using starbucks.ui.basic;
 
-namespace modules.passport.model
+namespace modules.passport.services
 {
     public class PassportService:BaseService
     {
-  
-		 private PassportModel model =PassportModel.instance;
-        public override void init()
+        private PassportModel model
+        {
+            get { return _baseModel as PassportModel; }
+        }
+ 
+
+   
+        
+         public override void init()
         {
             base.init();
             dispatcher.AddEventListener(LoginRspd.PRO_ID,onLoginRspd);

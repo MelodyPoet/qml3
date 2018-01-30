@@ -4,8 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
  
 using System;
-using modules.scene.model;
-using modules.scene.roles;
+ using modules.scene.roles;
 using starbucks.basic;
 using UnityEngine.UI;
  
@@ -22,7 +21,10 @@ namespace  modules.scene.main
             get;
             private set;
         }
-
+        private SceneModel model
+        {
+            get { return ModulesManager.scene.model; }
+        }
         private void Awake()
         {
             instance = this;
@@ -62,11 +64,11 @@ namespace  modules.scene.main
             {
                 Destroy(currentScene);
             }
-            GlobalCoroutine.instance.StartCoroutine(  AssetBundleManager.load("map/"+SceneModel.instance.currentMap.model + ".abd",null, (ab) =>
+            GlobalCoroutine.instance.StartCoroutine(  AssetBundleManager.load("map/"+model.currentMap.model + ".abd",null, (ab) =>
             {
-              currentScene= Instantiate( ab.LoadAsset<GameObject>(SceneModel.instance.currentMap.model));
+              currentScene= Instantiate( ab.LoadAsset<GameObject>(model.currentMap.model));
                 MyHero.instance.transform.position = currentScene.transform.Find("posList").GetChild(0).position;
-                if (SceneModel.instance.currentMap.type == MapTypeEnum.NORMAL)
+                if (model.currentMap.type == MapTypeEnum.NORMAL)
                 {
                     new SceneFindMonsterRqst().send();
                 }

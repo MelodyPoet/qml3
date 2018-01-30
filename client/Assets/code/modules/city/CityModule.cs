@@ -1,17 +1,20 @@
  
-using modules.cityMainPage.model;
-using modules.cityMainPage.views;
+ using modules.city;
+ using modules.cityMainPage.services;
+ using modules.cityMainPage.views;
 using starbucks.ui.basic;
 namespace modules.cityMainPage
 {
     public   class CityModule : BaseModule
     {
-          public CityModel model = CityModel.instance;
+          public CityModel model ;
  
         public override void init()
         {
            base.init();
-            model.service=new CityService();
+            model=new CityModel();
+            RegService<CityService>(model);
+            
           RegPanel<CityPanel>(ModuleEnum.CityMainPage,"cityMainPageView","citymainpage","comm");
  
            

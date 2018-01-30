@@ -1,10 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using modules.battleMainPage.model;
-using modules.battleMainPage.views;
-using modules.passport.model;
+ 
 using modules.scene;
-using modules.scene.model;
+ 
 using starbucks.basic;
 using starbucks.ui.basic;
 using UnityEngine;
@@ -16,6 +14,10 @@ namespace modules.battleMainPage.views
 
 
 public class BattleMonsterHeadView : BaseView<BattleModule, BattlePanel> {
+    private SceneModel sceneModel
+    {
+        get { return ModulesManager.scene.model; }
+    }
     public override void Awake()
     {
         base.Awake();
@@ -53,7 +55,7 @@ public class BattleMonsterHeadView : BaseView<BattleModule, BattlePanel> {
 
     private void updateName()
     {
-        if(SceneModel.instance.currentNpcLayout==null)
+        if(sceneModel.currentNpcLayout==null)
         {
             gameObject.SetActive(false);
             return;
@@ -61,7 +63,7 @@ public class BattleMonsterHeadView : BaseView<BattleModule, BattlePanel> {
        } 
         gameObject.SetActive(true);
         transform.Find("barHp").GetComponent<Image>().fillAmount = 1;
-        int npcID = SceneModel.instance.currentNpcLayout.npcID;
+        int npcID = sceneModel.currentNpcLayout.npcID;
         transform.Find("txtName").GetComponent<Text>().text =BaseData.NpcBaseMap[npcID].name;
     }
 }

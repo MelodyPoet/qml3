@@ -1,4 +1,4 @@
-﻿using starbucks.ui.basic;
+﻿ using starbucks.ui.basic;
 
 namespace modules.passport.views
 {
@@ -6,7 +6,10 @@ namespace modules.passport.views
     {
         public PassportView passportView;
         public LoginView loginView;
-        
+        private PassportModel model
+        {
+            get { return module.model; }
+        }
         public override void Init()
         {
             base.Init();

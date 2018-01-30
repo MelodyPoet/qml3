@@ -1,6 +1,6 @@
  
-using modules.cityMainPage.model;
-using starbucks.basic;
+ using modules.city;
+ using starbucks.basic;
 using starbucks.uguihelp;
 using starbucks.ui;
  
@@ -10,7 +10,10 @@ namespace  modules.cityMainPage.views
 {
     public class CityView: BaseView<CityModule,CityPanel>
     {
-        public CityModel model = CityModel.instance;
+        private CityModel model
+        {
+            get { return module.model; }
+        }
 
         public override void Awake()
         {

@@ -9,7 +9,12 @@ using starbucks.ui.basic;
     public class BattleService:BaseService
     {
   
-		 private BattleModel model =BattleModel.instance;
+    
+        private BattleModel model
+        {
+            get { return _baseModel as BattleModel; }
+        }
+        
         public override void init()
         {
             base.init();

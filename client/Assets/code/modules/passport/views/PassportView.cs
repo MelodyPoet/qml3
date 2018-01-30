@@ -1,7 +1,6 @@
  
 using System;
-using modules.passport.model;
-using starbucks.uguihelp;
+ using starbucks.uguihelp;
 using UnityEngine.UI;
  
 using starbucks.ui.basic;
@@ -11,10 +10,11 @@ namespace  modules.passport.views
 {
     public class PassportView: BaseView<PassportModule,PassportPanel>
     {
-        //view call logic
-        public PassportModel model = PassportModel.instance;
-
-
+  
+        private PassportModel model
+        {
+            get { return module.model; }
+        }
         public override void Awake()
         {
             base.Awake();
