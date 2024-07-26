@@ -22,6 +22,7 @@ namespace  modules.cityMainPage.views
             UIEventListener.Get(transform.Find("btnMap1").gameObject).onClick = (go) => { RequestEnterScene(2); };
              UIEventListener.Get(transform.Find("btnMap2").gameObject).onClick = (go) => { RequestEnterScene(4); };
             UIEventListener.Get(transform.Find("btnMap3").gameObject).onClick = (go) => { RequestEnterScene(35); };
+            UIEventListener.Get(transform.Find("btnMap4").gameObject).onClick = (go) => { RequestEnterScene(21); };
             
         }
 
